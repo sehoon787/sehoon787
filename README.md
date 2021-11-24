@@ -1,4 +1,4 @@
-### Hi there 👋
+### Sehun KIM's Git 👋
 
 <!--
 **Juliansh787/Juliansh787** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
