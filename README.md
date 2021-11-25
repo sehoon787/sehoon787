@@ -26,7 +26,7 @@ Languages :
 <img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
 
 DB :  
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/MySQL-red?style=flat-square&logo=MySQL&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/></a>
 
 OS :  
@@ -38,7 +38,7 @@ Packages :
 <img src="https://img.shields.io/badge/-Anaconda-FFFFFF?style=flat&logo=Anaconda&logoColor=green"/></a>
 <img src="https://img.shields.io/badge/-scikitlearn-FFFFFF?style=flat&logo=scikitlearn&logoColor=orange"/></a>
 <img src="https://img.shields.io/badge/-Numpy-FFFFFF?style=flat&logo=Numpy&logoColor=blue"/></a>
-<img src="https://img.shields.io/badge/-Pandas-FFFFFF?style=flat&logo=Pandas&logoColor=blue"/></a>
+<img src="https://img.shields.io/badge/-Pandas-FFFFFF?style=flat&logo=Pandas&logoColor=purple"/></a>
 <img src="https://img.shields.io/badge/-Matplotlib-FFFFFF?style=flat&logo=Matplotlib"/></a>
 
 <img src="https://img.shields.io/badge/-Tensorflow-FFFFFF?style=flat&logo=Tensorflow"/></a>
