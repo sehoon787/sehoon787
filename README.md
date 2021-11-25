@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 <!-- <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a> &nbsp -->
 ## 👋 &nbsp;Hello!☺️
 
-✔️ &nbsp;I'm interested in Data analysis and CV, ML&DL with python.\
+✔️ &nbsp;I'm interested in Data analysis, CV, ML&DL and Embedded System for Automation with python.\
 ✔️ &nbsp;I consider making technical document for issue tracking, version history.\
 ✔️ &nbsp;I focus my projects on practicality.
 
@@ -45,10 +45,11 @@ Here are some ideas to get you started:
 
 
 ### 🔭 &nbsp;I'm interested in
-<img src="https://img.shields.io/badge/-Data Analysis-000000?style=flat&logo=Python"/></a>
-<img src="https://img.shields.io/badge/-Digital Signal Processing-000000?style=flat&logo=Python"/></a>
-<img src="https://img.shields.io/badge/-ML & DL-000000?style=flat&logo=Python"/></a>
-<img src="https://img.shields.io/badge/-Image Processing-000000?style=flat&logo=Python"/></a>
+<img src="https://img.shields.io/badge/-Data Analysis-FFA520?style=flat&logo=Python&logoColor=FFFF01"/></a>
+<img src="https://img.shields.io/badge/-Digital Signal Processing-green?style=flat&logo=Python&logoColor=FFFF01"/></a>
+<img src="https://img.shields.io/badge/-ML & DL-FF0000?style=flat&logo=Python&logoColor=FFFF01"/></a>
+<img src="https://img.shields.io/badge/-Image Processing-blue?style=flat&logo=Python&logoColor=FFFF01"/></a>
+<img src="https://img.shields.io/badge/-Embedded System-008010?style=flat&logo=Python&logoColor=FFFF01"/></a>
 <img src="https://img.shields.io/badge/-Drone-FFFFFF?style=flat&logo=Drone&logoColor=black"/></a>
 
 ### 💻 &nbsp;GitHub Analytics
