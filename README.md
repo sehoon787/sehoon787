@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 ## 👋 &nbsp;Hello!☺️
 
 ✔️ &nbsp;I'm interested in Data analysis, CV, ML&DL and Embedded System for Automation with python.\
-✔️ &nbsp;I consider making technical document for issue tracking, version history the most important thing for everyone.\
+✔️ &nbsp;I consider making technical document for issue tracking and version history the most important thing for everyone.\
 ✔️ &nbsp;I focus my projects on practicality.
 
 
