@@ -21,20 +21,20 @@ Here are some ideas to get you started:
 
 
 ### 🛠 I'm working with
-Languages: 
+Languages:   
 <img src="https://img.shields.io/badge/-Python-FFFFFF?style=flat&logo=Python"/></a>
 <img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
 
-DB: 
+DB:  
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/></a>
 
-OS: 
+OS:  
 <img src="https://img.shields.io/badge/-Windows-FFFFFF?style=flat&logo=Windows&logoColor=blue"/></a>
 <img src="https://img.shields.io/badge/-Linux-FFFFFF?style=flat&logo=Linux&logoColor=black"/></a>
 <img src="https://img.shields.io/badge/-Ubuntu-FFFFFF?style=flat&logo=Ubuntu&logoColor=orange"/></a>
 
-Packages: 
+Packages:  
 <img src="https://img.shields.io/badge/-Anaconda-FFFFFF?style=flat&logo=Anaconda&logoColor=green"/></a>
 <img src="https://img.shields.io/badge/-scikitlearn-FFFFFF?style=flat&logo=scikitlearn&logoColor=orange"/></a>
 <img src="https://img.shields.io/badge/-Numpy-FFFFFF?style=flat&logo=Numpy&logoColor=blue"/></a>
