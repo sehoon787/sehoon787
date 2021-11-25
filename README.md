@@ -44,6 +44,9 @@ Here are some ideas to get you started:
 
 <img src="https://img.shields.io/badge/-OpenCV-FFFFFF?style=flat&logo=OpenCV&logoColor=red"/></a>
 
+<img src="https://img.shields.io/badge/-PyCharm-FFFFFF?style=flat&logo=PyCharm&logoColor=black"/></a>
+<img src="https://img.shields.io/badge/-VisualStudio-FFFFFF?style=flat&logo=VisualStudio&logoColor=purple"/></a>
+
 <img src="https://img.shields.io/badge/-Data Analysis-000000?style=flat&logo=Python"/></a>
 <img src="https://img.shields.io/badge/-Digital Signal Processing-000000?style=flat&logo=Python"/></a>
 <img src="https://img.shields.io/badge/-ML & DL-000000?style=flat&logo=Python"/></a>
@@ -57,7 +60,9 @@ Here are some ideas to get you started:
 
 
 ### 🤝🏻 &nbsp;Contact
-<a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-sehoon787@naver.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
-<a href="mailto:cookie00421@gmail.com"><img src="https://img.shields.io/badge/-cookie00421@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-sehoon787@naver.com-FFFFFF?style=flat&logo=Naver&logoColor=green"/></a>
+<a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-@sehoon787-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
+<a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-@sehoon.kim.33-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
+<a href="mailto:tpgns787@gmail.com"><img src="https://img.shields.io/badge/-tpgns787@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 
 </p>
