@@ -19,16 +19,22 @@ Here are some ideas to get you started:
 ✔️ &nbsp;I consider making technical document for issue tracking, version history.\
 ✔️ &nbsp;I focus my projects on practicality.
 
+
 ### 🛠 I'm working with
+✔️ Languages
 <img src="https://img.shields.io/badge/-Python-FFFFFF?style=flat&logo=Python"/></a>
 <img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
+
+✔️ DB
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=Amazon%20AWS&logoColor=white"/></a>
 
+✔️ OS
 <img src="https://img.shields.io/badge/-Windows-FFFFFF?style=flat&logo=Windows&logoColor=blue"/></a>
 <img src="https://img.shields.io/badge/-Linux-FFFFFF?style=flat&logo=Linux&logoColor=black"/></a>
 <img src="https://img.shields.io/badge/-Ubuntu-FFFFFF?style=flat&logo=Ubuntu&logoColor=orange"/></a>
 
+✔️ Packages
 <img src="https://img.shields.io/badge/-Anaconda-FFFFFF?style=flat&logo=Anaconda&logoColor=green"/></a>
 <img src="https://img.shields.io/badge/-scikitlearn-FFFFFF?style=flat&logo=scikitlearn&logoColor=orange"/></a>
 <img src="https://img.shields.io/badge/-Numpy-FFFFFF?style=flat&logo=Numpy&logoColor=blue"/></a>
@@ -40,6 +46,7 @@ Here are some ideas to get you started:
 
 <img src="https://img.shields.io/badge/-OpenCV-FFFFFF?style=flat&logo=OpenCV&logoColor=red"/></a>
 
+✔️ IDE
 <img src="https://img.shields.io/badge/-PyCharm-FFFFFF?style=flat&logo=PyCharm&logoColor=black"/></a>
 <img src="https://img.shields.io/badge/-VisualStudio-FFFFFF?style=flat&logo=VisualStudio&logoColor=purple"/></a>
 
@@ -52,8 +59,8 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/-Embedded System-008010?style=flat&logo=Python&logoColor=FFFF01"/></a>
 <img src="https://img.shields.io/badge/-Drone-FFFFFF?style=flat&logo=Drone&logoColor=black"/></a>
 
-### 💻 &nbsp;GitHub Analytics
 
+### 💻 &nbsp;GitHub Analytics
 [![Github stats](https://github-readme-stats.vercel.app/api?username=Juliansh787&show_icons=true&theme=algolia&include_all_commits=true&count_private=true")](https://github.com/Juliansh787/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Juliansh787&layout=compact&theme=algolia)](https://github.com/Juliansh787/github-readme-stats)
 
