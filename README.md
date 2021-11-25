@@ -68,7 +68,7 @@ IDE :
 ### 🤝🏻 &nbsp;Contact
 <a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-sehoon787@naver.com-FFFFFF?style=flat&logo=Naver&logoColor=green"/></a>
 <a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-@sehoon787-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
-<a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-@sehoon.kim.33-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
+<a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-@sehoon787-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
 <a href="mailto:tpgns787@gmail.com"><img src="https://img.shields.io/badge/-tpgns787@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 
 </p>
