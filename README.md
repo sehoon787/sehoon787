@@ -33,14 +33,14 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/-Linux-FFFFFF?style=flat&logo=Linux&logoColor=black"/></a>
 <img src="https://img.shields.io/badge/-Ubuntu-FFFFFF?style=flat&logo=Ubuntu&logoColor=orange"/></a>
 
-<img src="https://img.shields.io/badge/-Tensorflow-FFFFFF?style=flat&logo=Tensorflow"/></a>
-<img src="https://img.shields.io/badge/-Keras-FFFFFF?style=flat&logo=Keras&logoColor=red"/></a>
-
 <img src="https://img.shields.io/badge/-Anaconda-FFFFFF?style=flat&logo=Anaconda&logoColor=green"/></a>
 <img src="https://img.shields.io/badge/-scikitlearn-FFFFFF?style=flat&logo=scikitlearn&logoColor=orange"/></a>
 <img src="https://img.shields.io/badge/-Numpy-FFFFFF?style=flat&logo=Numpy&logoColor=blue"/></a>
 <img src="https://img.shields.io/badge/-Pandas-FFFFFF?style=flat&logo=Pandas&logoColor=blue"/></a>
 <img src="https://img.shields.io/badge/-Matplotlib-FFFFFF?style=flat&logo=Matplotlib"/></a>
+
+<img src="https://img.shields.io/badge/-Tensorflow-FFFFFF?style=flat&logo=Tensorflow"/></a>
+<img src="https://img.shields.io/badge/-Keras-FFFFFF?style=flat&logo=Keras&logoColor=red"/></a>
 
 <img src="https://img.shields.io/badge/-OpenCV-FFFFFF?style=flat&logo=OpenCV&logoColor=red"/></a>
 
