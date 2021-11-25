@@ -12,17 +12,14 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 
-<h3 align="center"><b>🛠 Tech Stack 🛠</b></h3>
-</br>
-<p align="center">
 <!-- <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a> &nbsp -->
 ## 👋 &nbsp;Hello!☺️
 
-✔️ &nbsp;I'm interesting Data analysis and CV, ML&DL with python.\
+✔️ &nbsp;I'm interested in Data analysis and CV, ML&DL with python.\
 ✔️ &nbsp;I consider making technical document for issue tracking, version history.\
-✔️ &nbsp;I focus my projects on practicality.\
+✔️ &nbsp;I focus my projects on practicality.
 
-### 🛠 I'm interesting and working with 🛠
+### 🛠 I'm working with
 <img src="https://img.shields.io/badge/-Python-FFFFFF?style=flat&logo=Python"/></a>
 <img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white"/></a>
@@ -46,6 +43,8 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/-PyCharm-FFFFFF?style=flat&logo=PyCharm&logoColor=black"/></a>
 <img src="https://img.shields.io/badge/-VisualStudio-FFFFFF?style=flat&logo=VisualStudio&logoColor=purple"/></a>
 
+
+### 🔭 &nbsp;I'm interested in
 <img src="https://img.shields.io/badge/-Data Analysis-000000?style=flat&logo=Python"/></a>
 <img src="https://img.shields.io/badge/-Digital Signal Processing-000000?style=flat&logo=Python"/></a>
 <img src="https://img.shields.io/badge/-ML & DL-000000?style=flat&logo=Python"/></a>
