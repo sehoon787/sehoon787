@@ -18,10 +18,9 @@ Here are some ideas to get you started:
 <!-- <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a> &nbsp -->
 ## 👋 &nbsp;Hello!☺️
 
-✔️ &nbsp;스타트업 환경에 맞는 빠른 주기 개발, 특히 애자일 환경에 익숙합니다.\
-✔️ &nbsp;이슈 트래킹, 배포 히스토리 등의 기술 문서 작성을 중요하게 생각합니다.\
-✔️ &nbsp;개발자의 편한 개발보다 사용자의 편의를 더 중요하게 생각합니다.\
-✔️ &nbsp;저에 대해 궁금하시다면, <a href="https://www.notion.so/cucus/FullStack-Programmer-12a087212d21471abfce21cb3c347298">제 포트폴리오</a>를 방문해주세요.
+✔️ &nbsp;I'm interesting Data analysis and CV, ML&DL with python.\
+✔️ &nbsp;I consider making technical document for issue tracking, version history.\
+✔️ &nbsp;I focus my projects on practicality.\
 
 ### 🛠 I'm interesting and working with 🛠
 <img src="https://img.shields.io/badge/-Python-FFFFFF?style=flat&logo=Python"/></a>
