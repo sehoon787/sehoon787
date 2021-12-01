@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 <!-- <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a> &nbsp -->
 ## 👋 &nbsp;Hello!☺️
 
-✔️ &nbsp;I'm interested in Data analysis, CV, ML&DL and Embedded System for Automation with python.\
+✔️ &nbsp;I'm interested in Data analysis, CV, ML&DL and Embedded Automation System with python.\
 ✔️ &nbsp;I consider making technical document for issue tracking and version history the most important thing for everyone.\
 ✔️ &nbsp;I focus my projects on practicality.
 
