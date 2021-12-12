@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 
 ✔️ &nbsp;I'm interested in Data analysis, CV, ML&DL and Embedded Automation System with python.\
 ✔️ &nbsp;I consider making technical document for issue tracking and version history the most important thing for everyone.\
-✔️ &nbsp;I focus my projects on practicality.
+✔️ &nbsp;I focus my projects on practicality.\
 ✔️ &nbsp;Please visit my Blog => https://aliencoder.tistory.com
 
 ### 🛠 I'm working with
