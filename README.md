@@ -24,6 +24,7 @@ Here are some ideas to get you started:
 Languages :   
 <img src="https://img.shields.io/badge/-Python-FFFFFF?style=flat&logo=Python"/></a>
 <img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/react-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
 
 DB :  
 <img src="https://img.shields.io/badge/MySQL-red?style=flat-square&logo=MySQL&logoColor=white"/></a>
