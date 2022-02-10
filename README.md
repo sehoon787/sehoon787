@@ -77,5 +77,6 @@ IDE :
 <a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-@sehoon787-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
 <a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-@sehoon787-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
 <a href="mailto:tpgns787@gmail.com"><img src="https://img.shields.io/badge/-tpgns787@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/sehun-kim-5b1265227/"><img src="https://img.shields.io/badge/-LinkedIn-white?style=flat&logo=Linkedin&logoColor=blue"/></a>
 
 </p>
