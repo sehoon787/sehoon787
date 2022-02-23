@@ -14,12 +14,7 @@ Here are some ideas to get you started:
 
 <!-- <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a> &nbsp -->
 
-## 🤝🏻 &nbsp;Contact
-<a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-sehoon787@naver.com-FFFFFF?style=flat&logo=Naver&logoColor=green"/></a>
-<a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-@sehoon787-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
-<a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-@sehoon787-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
-<a href="mailto:tpgns787@gmail.com"><img src="https://img.shields.io/badge/-tpgns787@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/sehun-kim-5b1265227/"><img src="https://img.shields.io/badge/-LinkedIn-white?style=flat&logo=Linkedin&logoColor=blue"/></a>
+## 🤝🏻 &nbsp;I am..
 
 ✔️ &nbsp;I'm interested in Data analysis, CV, ML&DL and Embedded Automation System with python.\
 ✔️ &nbsp;I consider making technical document for issue tracking and version history the most important thing for everyone.\
@@ -64,7 +59,7 @@ IDE :
 <img src="https://img.shields.io/badge/-VisualStudio-FFFFFF?style=flat&logo=VisualStudio&logoColor=purple"/></a>
 <img src="https://img.shields.io/badge/-VisualStudioCode-FFFFFF?style=flat&logo=VisualStudioCode&logoColor=007ACC"/></a>
 
-### 🔭 &nbsp;I'm interested in
+## 🔭 &nbsp;I'm interested in
 <img src="https://img.shields.io/badge/-Data Analysis-FFA520?style=flat&logo=Python&logoColor=FFFF01"/></a>
 <img src="https://img.shields.io/badge/-Digital Signal Processing-green?style=flat&logo=Python&logoColor=FFFF01"/></a>
 <img src="https://img.shields.io/badge/-ML & DL-FF0000?style=flat&logo=Python&logoColor=FFFF01"/></a>
@@ -72,6 +67,12 @@ IDE :
 <img src="https://img.shields.io/badge/-Embedded System-008010?style=flat&logo=Python&logoColor=FFFF01"/></a>
 <img src="https://img.shields.io/badge/-Drone-FFFFFF?style=flat&logo=Drone&logoColor=black"/></a>
 
+## 🤝🏻 &nbsp;Contact
+<a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-sehoon787@naver.com-FFFFFF?style=flat&logo=Naver&logoColor=green"/></a>
+<a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-@sehoon787-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
+<a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-@sehoon787-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
+<a href="mailto:tpgns787@gmail.com"><img src="https://img.shields.io/badge/-tpgns787@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/sehun-kim-5b1265227/"><img src="https://img.shields.io/badge/-LinkedIn-white?style=flat&logo=Linkedin&logoColor=blue"/></a>
 
 ## 💻 &nbsp;GitHub Analytics
 [![Github stats](https://github-readme-stats.vercel.app/api?username=sehoon787&show_icons=true&theme=algolia&include_all_commits=true&count_private=true")](https://github.com/sehoon787/github-readme-stats)
