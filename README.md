@@ -15,6 +15,13 @@ Here are some ideas to get you started:
 <!-- <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a> &nbsp -->
 ## 👋 &nbsp;Hello!☺️
 
+### 🤝🏻 &nbsp;Contact
+<a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-sehoon787@naver.com-FFFFFF?style=flat&logo=Naver&logoColor=green"/></a>
+<a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-@sehoon787-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
+<a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-@sehoon787-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
+<a href="mailto:tpgns787@gmail.com"><img src="https://img.shields.io/badge/-tpgns787@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/sehun-kim-5b1265227/"><img src="https://img.shields.io/badge/-LinkedIn-white?style=flat&logo=Linkedin&logoColor=blue"/></a>
+
 ✔️ &nbsp;I'm interested in Data analysis, CV, ML&DL and Embedded Automation System with python.\
 ✔️ &nbsp;I consider making technical document for issue tracking and version history the most important thing for everyone.\
 ✔️ &nbsp;I focus my projects on practicality.\
@@ -70,13 +77,5 @@ IDE :
 ### 💻 &nbsp;GitHub Analytics
 [![Github stats](https://github-readme-stats.vercel.app/api?username=sehoon787&show_icons=true&theme=algolia&include_all_commits=true&count_private=true")](https://github.com/sehoon787/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehoon787&layout=compact&theme=algolia)](https://github.com/sehoon787/github-readme-stats)
-
-
-### 🤝🏻 &nbsp;Contact
-<a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-sehoon787@naver.com-FFFFFF?style=flat&logo=Naver&logoColor=green"/></a>
-<a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-@sehoon787-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
-<a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-@sehoon787-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
-<a href="mailto:tpgns787@gmail.com"><img src="https://img.shields.io/badge/-tpgns787@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/sehun-kim-5b1265227/"><img src="https://img.shields.io/badge/-LinkedIn-white?style=flat&logo=Linkedin&logoColor=blue"/></a>
 
 </p>
