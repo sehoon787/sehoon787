@@ -22,6 +22,7 @@ Here are some ideas to get you started:
 <a href="https://www.linkedin.com/in/sehun-kim-5b1265227/"><img src="https://img.shields.io/badge/-LinkedIn-white?style=flat&logo=Linkedin&logoColor=blue"/></a>
 <a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
 <a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
+<a href="https://aliencoder.tistory.com/"><img src="https://img.shields.io/badge/-Tistory blog-white?style=flat&logo=T-Mobile&logoColor=black"/></a>
 
 ✔️ &nbsp;I'm interested in Data analysis, CV, ML&DL and Embedded Automation System with python.\
 ✔️ &nbsp;I consider making technical document for issue tracking and version history the most important thing for everyone.\
