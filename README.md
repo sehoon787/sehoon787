@@ -13,9 +13,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 <!-- <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=Android&logoColor=white"/></a> &nbsp -->
-## 👋 &nbsp;Hello!☺️
 
-### 🤝🏻 &nbsp;Contact
+## 🤝🏻 &nbsp;Contact
 <a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-sehoon787@naver.com-FFFFFF?style=flat&logo=Naver&logoColor=green"/></a>
 <a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-@sehoon787-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
 <a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-@sehoon787-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
@@ -27,7 +26,7 @@ Here are some ideas to get you started:
 ✔️ &nbsp;I focus my projects on practicality.\
 ✔️ &nbsp;Please visit my Blog. If you can read Korean.. => https://aliencoder.tistory.com
 
-### 🛠 I'm working with
+## 🛠 I'm working with
 Languages :   
 <img src="https://img.shields.io/badge/-Python-FFFFFF?style=flat&logo=Python"/></a>
 <img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
@@ -74,7 +73,7 @@ IDE :
 <img src="https://img.shields.io/badge/-Drone-FFFFFF?style=flat&logo=Drone&logoColor=black"/></a>
 
 
-### 💻 &nbsp;GitHub Analytics
+## 💻 &nbsp;GitHub Analytics
 [![Github stats](https://github-readme-stats.vercel.app/api?username=sehoon787&show_icons=true&theme=algolia&include_all_commits=true&count_private=true")](https://github.com/sehoon787/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehoon787&layout=compact&theme=algolia)](https://github.com/sehoon787/github-readme-stats)
 
