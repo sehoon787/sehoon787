@@ -86,6 +86,8 @@ Here are some ideas to get you started:
 
 &nbsp;
 ## 💻 GitHub Analytics
-[![Github stats](https://github-readme-stats.vercel.app/api?username=sehoon787&show_icons=true&theme=algolia&include_all_commits=true&count_private=true)](https://github.com/sehoon787/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehoon787&layout=compact&theme=algolia)](https://github.com/anuraghazra/github-readme-stats)
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehoon787&show_icons=true&count_private=true&theme=algolia)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehoon787&layout=compact&langs_count=5&hide=JupyterNotebook&theme=algolia)](https://github.com/anuraghazra/github-readme-stats)
+
 </p>
