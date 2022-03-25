@@ -57,9 +57,7 @@ Here are some ideas to get you started:
 
 &nbsp;
 ## 💻 GitHub Analytics
-
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehoon787&show_icons=true&count_private=true&theme=algolia)
-
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehoon787&layout=compact&langs_count=5&hide=JupyterNotebook&theme=algolia)](https://github.com/anuraghazra/github-readme-stats)
 
 </p>
