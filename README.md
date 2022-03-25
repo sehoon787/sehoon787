@@ -55,8 +55,6 @@ Here are some ideas to get you started:
 <img src="https://img.shields.io/badge/-Keras-FFFFFF?style=flat&logo=Keras&logoColor=red"/></a>
 <img src="https://img.shields.io/badge/-OpenCV-FFFFFF?style=flat&logo=OpenCV&logoColor=red"/></a>
 
-<div align=left>
-
 &nbsp;
 ## 💻 GitHub Analytics
 
