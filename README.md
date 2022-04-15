@@ -33,12 +33,13 @@ Here are some ideas to get you started:
 
 &nbsp;
 ## 🌹 Languages 🌹
+<img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/-Python-yellow?style=flat&logo=Python"/></a>
 <img src="https://img.shields.io/badge/Dart-white?style=flat-square&logo=Dart&logoColor=0175C2"/></a>
-<img src="https://img.shields.io/badge/Flutter-white?style=flat-square&logo=Flutter&logoColor=02569B"/></a>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></a>
+
+<img src="https://img.shields.io/badge/Flutter-white?style=flat-square&logo=Flutter&logoColor=02569B"/></a>
 <img src="https://img.shields.io/badge/ReactNative-blue?style=flat-square&logo=React&logoColor=61DAFB"/></a>
-<img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
 
 &nbsp;
 ## 💾 DB 💾  
