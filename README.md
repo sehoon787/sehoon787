@@ -24,7 +24,7 @@ Here are some ideas to get you started:
 <a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
 <a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
 
-🔭 &nbsp;I'm interested in Data Science(AI, CV, DSP and Analysis) with python and Mobile Application with RN.\
+🔭 &nbsp;I'm interested in Data Science(AI, CV, DSP and Analysis) with python and Mobile Application with Flutter and RN.\
 ✔️ &nbsp;I consider making technical document for issue tracking and version history the most important thing for everyone.\
 ✔️ &nbsp;I focus my projects on practicality.\
 ✔️ &nbsp;Please visit my Blog. If you can read Korean. => https://aliencoder.tistory.com
@@ -33,10 +33,12 @@ Here are some ideas to get you started:
 
 &nbsp;
 ## 🌹 Languages 🌹
-<img src="https://img.shields.io/badge/-Python-FFFFFF?style=flat&logo=Python"/></a>
-<img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
+<img src="https://img.shields.io/badge/-Python-yellow?style=flat&logo=Python"/></a>
+<img src="https://img.shields.io/badge/Dart-white?style=flat-square&logo=Dart&logoColor=0175C2"/></a>
+<img src="https://img.shields.io/badge/Flutter-white?style=flat-square&logo=Flutter&logoColor=02569B"/></a>
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/></a>
 <img src="https://img.shields.io/badge/ReactNative-blue?style=flat-square&logo=React&logoColor=61DAFB"/></a>
+<img src="https://img.shields.io/badge/c++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white"/></a>
 
 &nbsp;
 ## 💾 DB 💾  
@@ -58,6 +60,6 @@ Here are some ideas to get you started:
 &nbsp;
 ## 💻 GitHub Analytics
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=sehoon787&show_icons=true&count_private=true&theme=algolia)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehoon787&layout=compact&langs_count=5&hide=jupyter%20notebook&theme=algolia)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sehoon787&layout=compact&langs_count=6&hide=jupyter%20notebook&theme=algolia)](https://github.com/anuraghazra/github-readme-stats)
 
 </p>
