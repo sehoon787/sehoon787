@@ -26,7 +26,7 @@
 ## 🏆 Github Profile Trophy
 <div align="center">
 
-  [![trophy](https://github-profile-trophy.vercel.app/?username=sehoon787&theme=gruvbox&no-frame=false&column=7)](https://github.com/ryo-ma/github-profile-trophy) 
+  [![trophy](https://github-profile-trophy.vercel.app/?username=sehoon787&column=7&theme=gruvbox&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy) 
 
 </div>
 
