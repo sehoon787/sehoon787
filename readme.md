@@ -75,7 +75,7 @@
 <div align="center">
   
   ![Alien Coder's GitHub stats](https://github-readme-stats-git-master-sehoon787.vercel.app/api?username=sehoon787&hide=issues&count_private=true&show_owner=true&show_icons=true&include_all_commits=true&bg_color=0d1117&title_color=ffffff&text_color=ffffff&icon_color=db1cff&hide_border=true)
-  ![Alien Coder's GitHub Most Used Languages](https://github-readme-stats-git-master-sehoon787.vercel.app/api/top-langs/?username=sehoon787&custom_title=⚡Alien%20Coder's%20Most%20Used%20Languages&layout=compact&card_width=450&bg_color=0d1117&title_color=ffffff&text_color=ffffff&icon_color=db1cff&hide_border=true&count_private=true&langs_count=10&hide=jupyter%20notebook)
+  ![Alien Coder's GitHub Most Used Languages](https://github-readme-stats-git-master-sehoon787.vercel.app/api/top-langs/?username=sehoon787&custom_title=⚡Alien%20Coder's%20Most%20Used%20Languages&layout=compact&card_width=446&bg_color=0d1117&title_color=ffffff&text_color=ffffff&icon_color=db1cff&hide_border=true&count_private=true&langs_count=10&hide=jupyter%20notebook)
   ![AlienCoder's GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com?user=sehoon787&hide_border=true&background=0D1117&currStreakLabel=FFFFFF&sideLabels=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideNums=FFFFFF&fire=db1cff&ring=db1cff&stroke=FFFFFFFF)
   
 </div>
