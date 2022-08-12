@@ -46,7 +46,7 @@
 <!-- DB -->
 <a href="https://www.mysql.com/" title="mysql"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="36" height="36" alt="mysql"/></a> <a href="https://www.mariadb.com/" title="mariadb"><img src="https://simpleicons.vercel.app/mariadb/003545" width="36" height="36" alt="mariadb"/></a> 
 <!-- Clouds -->
-<a href="https://aws.amazon.com/" title="amazonaws"><img src="https://simpleicons.vercel.app/amazonaws/FF9900" width="36" height="36" alt="amazonaws"/></a>
+<a href="https://aws.amazon.com/" title="amazonaws"><img src="https://simpleicons.vercel.app/amazonaws/FF9900" width="36" height="36" alt="amazonaws"/></a> <a href="https://firebase.google.com/" title="firebase"><img src="https://simpleicons.vercel.app/firebase/FFCA28" width="36" height="36" alt="firebase"/></a>
 <!-- Backend -->
 <a href="https://palletsprojects.com/p/flask/" title="flask"><img src="https://simpleicons.vercel.app/flask/FFFFFF" width="36" height="36" alt="flask"/></a> <a href="https://www.nginx.com/" title="nginx"><img src="https://simpleicons.vercel.app/nginx/009639" width="36" height="36" alt="nginx"/></a> <a href="https://https://gunicorn.org" title="gunicorn"><img src="https://simpleicons.vercel.app/gunicorn/499848" width="36" height="36" alt="gunicorn"/></a> <a href="https://swagger.io/" title="swagger"><img src="https://simpleicons.vercel.app/swagger/85EA2D" width="36" height="36" alt="swagger"/></a> <a href="https://www.w3schools.com/js/js_json_intro.asp" title="json"><img src="https://simpleicons.vercel.app/json/009639" width="36" height="36" alt="json"/></a>
 <!-- Secure -->
