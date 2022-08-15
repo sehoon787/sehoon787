@@ -6,8 +6,8 @@
 ![Profile views](https://komarev.com/ghpvc/?username=sehoon787&style=flat-square)
 [![wakatime](https://wakatime.com/badge/user/df8444ac-5074-454d-a6ed-388ff5fa4fde.svg)](https://wakatime.com/@df8444ac-5074-454d-a6ed-388ff5fa4fde)
 
+### 🔗 Link
 <blockquote>
-🔗 Link : 
 <a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-Naver-FFFFFF?style=flat&logo=Naver&logoColor=green"/></a>
 <a href="mailto:tpgns787@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/sehun-kim-5b1265227/"><img src="https://img.shields.io/badge/-LinkedIn-white?style=flat&logo=Linkedin&logoColor=blue"/></a>
@@ -16,7 +16,8 @@
 <a href="https://aliencoder.tistory.com"><img src="https://img.shields.io/badge/Tech%20Blog-555263?style=flat&logoColor=white"/></a>
 </blockquote>
 
-> ▲ Some of my interests : ▲ Python ▲ Data Science ▲ ML/DL ▲ Computer Vision ▲ Flask ▲ Flutter ▲ Automation ▲ AWS
+### ▲ Some of my interests
+> ▲ Python ▲ Data Science ▲ ML/DL ▲ Computer Vision ▲ Flask ▲ Flutter ▲ Automation ▲ AWS
 
 ### I'm Listening to
 <blockquote> 
