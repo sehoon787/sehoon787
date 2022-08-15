@@ -20,7 +20,7 @@
 
 ### I'm Listening to
 <blockquote> 
-<a href="https://open.spotify.com/user/3137pifeox2np35h2tnjturueovy"><img src="https://github-spotify-git-master-sehoon787.vercel.app/api/spotify?background_color=000000&border_color=ffffff" width="380"></a>
+<a href="https://open.spotify.com/user/3137pifeox2np35h2tnjturueovy"><img src="https://github-spotify-git-master-sehoon787.vercel.app/api/spotify?background_color=000000&border_color=ffffff" width="360"></a>
 </blockquote>
 
 &nbsp;
