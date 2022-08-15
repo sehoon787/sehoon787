@@ -5,7 +5,7 @@
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsehoon787%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 ![Profile views](https://komarev.com/ghpvc/?username=sehoon787&style=flat-square)
 [![wakatime](https://wakatime.com/badge/user/df8444ac-5074-454d-a6ed-388ff5fa4fde.svg)](https://wakatime.com/@df8444ac-5074-454d-a6ed-388ff5fa4fde)
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-26%20Thousand%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/I%27ve%20Written-26%20Thousand%20lines%20of%20code-blue)
 
 ### 🔗 Link
 <blockquote>
