@@ -34,6 +34,38 @@
 
 &nbsp;
 <!--START_SECTION:waka-->
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-26%20Thousand%20lines%20of%20code-blue)
+
+**🐱 My GitHub Data** 
+
+> 🏆 975 Contributions in the Year 2022
+ > 
+> 📦 605.1 kB Used in GitHub's Storage 
+ > 
+> 🚫 Not Opted to Hire
+ > 
+> 📜 21 Public Repositories 
+ > 
+> 🔑 22 Private Repositories  
+ > 
+📊 **This Week I Spent My Time On** 
+
+```text
+⌚︎ Time Zone: Asia/Seoul
+
+💬 Programming Languages: 
+Dart                     43 mins             █████████████████████████   100.0%
+
+🔥 Editors: 
+Android Studio           43 mins             █████████████████████████   100.0%
+
+💻 Operating System: 
+Mac                      43 mins             █████████████████████████   100.0%
+
+```
+
+
+ Last Updated on 15/08/2022 09:32:28 UTC
 <!--END_SECTION:waka-->
 
 &nbsp;
