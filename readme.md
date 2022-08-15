@@ -119,7 +119,7 @@ Mac                      43 mins             ███████████�
 <div align="center">
   
   [![Alien Coder's GitHub stats](https://github-readme-stats-git-master-sehoon787.vercel.app/api?username=sehoon787&hide=issues&count_private=true&show_owner=true&show_icons=true&include_all_commits=true&bg_color=0d1117&title_color=ffffff&text_color=ffffff&icon_color=db1cff&hide_border=true&line_height=30)](https://github.com/sehoon787/github-readme-stats)
-  [![Alien Coder's GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com?user=sehoon787&hide_border=true&background=0D1117&currStreakLabel=FFFFFF&sideLabels=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideNums=FFFFFF&fire=db1cff&ring=db1cff&stroke=FFFFFFFF)](https://github.com/sehoon787/github-readme-stats)
+  [![Alien Coder's GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com?user=sehoon787&hide_border=true&background=0D1117&currStreakLabel=FFFFFF&sideLabels=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideNums=FFFFFF&fire=db1cff&ring=db1cff&stroke=FFFFFFFF)](https://github.com/DenverCoder1/github-readme-streak-stats)
   
 </div>
   
