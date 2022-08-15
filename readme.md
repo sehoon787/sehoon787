@@ -16,7 +16,7 @@
 <a href="https://aliencoder.tistory.com"><img src="https://img.shields.io/badge/Tech%20Blog-555263?style=flat&logoColor=white"/></a>
 </blockquote>
 
-### ▲ Some of my interests
+### Some of my interests
 > ▲ Python ▲ Data Science ▲ ML/DL ▲ Computer Vision ▲ Flask ▲ Flutter ▲ Automation ▲ AWS
 
 ### I'm Listening to
