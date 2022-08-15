@@ -24,6 +24,14 @@
 </blockquote>
 
 &nbsp;
+## 🏆 Github Profile Trophy
+<div align="center">
+
+  [![trophy](https://github-profile-trophy.vercel.app/?username=sehoon787&column=8&theme=gruvbox&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy) 
+
+</div>
+
+&nbsp;
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-21%20mins-blue)
 
@@ -60,15 +68,6 @@ Mac                      43 mins             ███████████�
 
  Last Updated on 15/08/2022 09:05:28 UTC
 <!--END_SECTION:waka-->
-
-&nbsp;
-## 🏆 Github Profile Trophy
-<div align="center">
-
-  [![trophy](https://github-profile-trophy.vercel.app/?username=sehoon787&column=8&theme=gruvbox&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy) 
-
-</div>
-
 
 &nbsp;
 ## 🛸 Github Skyline
