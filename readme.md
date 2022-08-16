@@ -36,15 +36,15 @@
 <!--START_SECTION:waka-->
 **🐱 My GitHub Data** 
 
-> 🏆 975 Contributions in the Year 2022
+> 🏆 1,637 Contributions in the Year 2022
  > 
-> 📦 605.1 kB Used in GitHub's Storage 
+> 📦 599.7 kB Used in GitHub's Storage 
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 21 Public Repositories 
+> 📜 22 Public Repositories 
  > 
-> 🔑 22 Private Repositories  
+> 🔑 20 Private Repositories  
  > 
 📊 **This Week I Spent My Time On** 
 
@@ -52,18 +52,19 @@
 ⌚︎ Time Zone: Asia/Seoul
 
 💬 Programming Languages: 
-Dart                     43 mins             █████████████████████████   100.0%
+Dart                     1 hr 21 mins        █████████████████████████   100.0% 
+textmate                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.0%
 
 🔥 Editors: 
-Android Studio           43 mins             █████████████████████████   100.0%
+Android Studio           1 hr 21 mins        █████████████████████████   100.0%
 
 💻 Operating System: 
-Mac                      43 mins             █████████████████████████   100.0%
+Mac                      1 hr 21 mins        █████████████████████████   100.0%
 
 ```
 
 
- Last Updated on 15/08/2022 10:19:17 UTC
+ Last Updated on 16/08/2022 15:19:16 UTC
 <!--END_SECTION:waka-->
 
 &nbsp;
