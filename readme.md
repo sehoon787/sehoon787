@@ -68,12 +68,6 @@ Mac                      1 hr 21 mins        ███████████�
 <!--END_SECTION:waka-->
 
 &nbsp;
-## 🛸 Github Skyline
-<div align="center">
-<a href="https://github.com/sehoon787"><img src="https://github.com/sehoon787/sehoon787/blob/main/assets/image/skyline_2021.gif" width="80%"></a>
-</div>
-
-&nbsp;
 ## My Stack
 <!-- 
   Icons from: 
