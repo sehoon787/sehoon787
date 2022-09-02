@@ -16,9 +16,6 @@
 <a href="https://aliencoder.tistory.com"><img src="https://img.shields.io/badge/Tech%20Blog-555263?style=flat&logoColor=white"/></a>
 </blockquote>
 
-### Some of my interests
-> ▲ Python ▲ Data Science ▲ ML/DL ▲ Computer Vision ▲ Flask ▲ Flutter ▲ Automation ▲ AWS
-
 ### I'm Listening to
 <blockquote> 
 <a href="https://open.spotify.com/user/3137pifeox2np35h2tnjturueovy"><img src="https://github-spotify-git-master-sehoon787.vercel.app/api/spotify?background_color=000000&border_color=ffffff" width="360"></a>
