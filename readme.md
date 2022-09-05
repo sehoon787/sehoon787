@@ -33,18 +33,34 @@
 <!--START_SECTION:waka-->
 **🐱 My GitHub Data** 
 
-> 🏆 1,813 Contributions in the Year 2022
+> 🏆 1,823 Contributions in the Year 2022
  > 
 > 📦 670.0 kB Used in GitHub's Storage 
  > 
 > 🚫 Not Opted to Hire
  > 
-> 📜 23 Public Repositories 
+> 📜 24 Public Repositories 
  > 
 > 🔑 21 Private Repositories  
  > 
+📊 **This Week I Spent My Time On** 
 
- Last Updated on 04/09/2022 15:18:09 UTC
+```text
+⌚︎ Time Zone: Asia/Seoul
+
+💬 Programming Languages: 
+Python                   1 hr 1 min          █████████████████████████   100.0%
+
+🔥 Editors: 
+PyCharmCore              1 hr 1 min          █████████████████████████   100.0%
+
+💻 Operating System: 
+Windows                  1 hr 1 min          █████████████████████████   100.0%
+
+```
+
+
+ Last Updated on 05/09/2022 15:19:47 UTC
 <!--END_SECTION:waka-->
 
 &nbsp;
