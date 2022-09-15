@@ -43,8 +43,25 @@
  > 
 > 🔑 21 Private Repositories  
  > 
+📊 **This Week I Spent My Time On** 
 
- Last Updated on 14/09/2022 15:20:53 UTC
+```text
+⌚︎ Time Zone: Asia/Seoul
+
+💬 Programming Languages: 
+Python                   2 hrs 21 mins       █████████████████████████   99.96% 
+Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.04%
+
+🔥 Editors: 
+PyCharmCore              2 hrs 21 mins       █████████████████████████   100.0%
+
+💻 Operating System: 
+Windows                  2 hrs 21 mins       █████████████████████████   100.0%
+
+```
+
+
+ Last Updated on 15/09/2022 15:21:24 UTC
 <!--END_SECTION:waka-->
 
 &nbsp;
