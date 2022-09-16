@@ -35,7 +35,7 @@
 
 > 🏆 1,877 Contributions in the Year 2022
  > 
-> 📦 670.0 kB Used in GitHub's Storage 
+> 📦 670.1 kB Used in GitHub's Storage 
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -49,19 +49,18 @@
 ⌚︎ Time Zone: Asia/Seoul
 
 💬 Programming Languages: 
-Python                   2 hrs 21 mins       █████████████████████████   99.96% 
-Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   0.04%
+No Activity Tracked This Week
 
 🔥 Editors: 
-PyCharmCore              2 hrs 21 mins       █████████████████████████   100.0%
+No Activity Tracked This Week
 
 💻 Operating System: 
-Windows                  2 hrs 21 mins       █████████████████████████   100.0%
+No Activity Tracked This Week
 
 ```
 
 
- Last Updated on 15/09/2022 15:21:24 UTC
+ Last Updated on 16/09/2022 15:20:24 UTC
 <!--END_SECTION:waka-->
 
 &nbsp;
