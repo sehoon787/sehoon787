@@ -49,18 +49,20 @@
 ⌚︎ Time Zone: Asia/Seoul
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Python                   56 mins             ████████████████████████░   97.37% 
+Dart                     1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   2.63%
 
 🔥 Editors: 
-No Activity Tracked This Week
+PyCharmCore              56 mins             ████████████████████████░   97.37% 
+Android Studio           1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   2.63%
 
 💻 Operating System: 
-No Activity Tracked This Week
+Windows                  58 mins             █████████████████████████   100.0%
 
 ```
 
 
- Last Updated on 07/10/2022 15:23:36 UTC
+ Last Updated on 08/10/2022 15:20:39 UTC
 <!--END_SECTION:waka-->
 
 &nbsp;
