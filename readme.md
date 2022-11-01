@@ -25,42 +25,6 @@
 </div>
 
 &nbsp;
-<!--START_SECTION:waka-->
-**🐱 My GitHub Data** 
-
-> 🏆 1,929 Contributions in the Year 2022
- > 
-> 📦 670.2 kB Used in GitHub's Storage 
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 23 Public Repositories 
- > 
-> 🔑 21 Private Repositories  
- > 
-📊 **This Week I Spent My Time On** 
-
-```text
-⌚︎ Time Zone: Asia/Seoul
-
-💬 Programming Languages: 
-Python                   11 hrs 9 mins       ████████████████████████░   96.47% 
-Dart                     24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.53%
-
-🔥 Editors: 
-PyCharmCore              11 hrs 9 mins       ████████████████████████░   96.47% 
-Android Studio           24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   3.53%
-
-💻 Operating System: 
-Windows                  11 hrs 34 mins      █████████████████████████   100.0%
-
-```
-
-
- Last Updated on 14/10/2022 15:25:07 UTC
-<!--END_SECTION:waka-->
-
-&nbsp;
 ## My Stack
 <!-- 
   Icons from: 
