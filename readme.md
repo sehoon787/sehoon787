@@ -16,16 +16,16 @@
 <a href="https://aliencoder.tistory.com"><img src="https://img.shields.io/badge/Tech%20Blog-555263?style=flat&logoColor=white"/></a>
 </blockquote>
 
-&nbsp;
+<!-- &nbsp;
 ## 🏆 Github Profile Trophy
 <div align="center">
 
   [![trophy](https://github-profile-trophy.vercel.app/?username=sehoon787&column=8&theme=gruvbox&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy) 
 
-</div>
+</div> -->
 
 &nbsp;
-## My Stack
+## Stack
 <!-- 
   Icons from: 
     https://simpleicons.org/
@@ -40,7 +40,7 @@
 <!-- OS -->
 <a href="https://www.microsoft.com/en-US/windows" title="windows"><img src="https://simpleicons.vercel.app/windows/0078D6" width="36" height="36" alt="windows"/></a> <a href="https://www.apple.com" title="apple"><img src="https://simpleicons.vercel.app/apple/7D7D7D" width="36" height="36" alt="apple"/></a> <a href="https://www.linux.org/" title="linux"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="36" height="36" alt="linux"></a> <a href="https://www.ubuntu.com" title="ubuntu"><img src="https://simpleicons.vercel.app/ubuntu/E95420" width="36" height="36" alt="ubuntu"/></a> <a href="https://www.redhat.com" title="redhat"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redhat/redhat-original.svg" width="36" height="36" alt="redhat"/></a> <a href="https://www.rockylinux.org" title="rockylinux"><img src="https://simpleicons.vercel.app/rockylinux/10B981" width="36" height="36" alt="rockylinux"/></a> <a href="https://www.centos.org" title="centos"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/centos/centos-original.svg" width="36" height="36" alt="centos"/></a> <a href="https://www.android.com" title="android"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original.svg" width="36" height="36" alt="android"/></a> <a href="https://www.apple.com" title="ios"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/IOS_logo.svg" width="36" height="36" alt="ios"/></a>
 <!-- DB -->
-<a href="https://www.mysql.com/" title="mysql"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="36" height="36" alt="mysql"/></a> <a href="https://www.mariadb.com/" title="mariadb"><img src="https://simpleicons.vercel.app/mariadb/003545" width="36" height="36" alt="mariadb"/></a> 
+<a href="https://www.mysql.com/" title="mysql"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="36" height="36" alt="mysql"/></a> <a href="https://www.mariadb.com/" title="mariadb"><img src="https://simpleicons.vercel.app/mariadb/003545" width="36" height="36" alt="mariadb"/></a> <a href="https://www.postgresql.org/" title="postgresql"><img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg" width="36" height="36" alt="postgresql"/></a> 
 <!-- Clouds -->
 <a href="https://aws.amazon.com/" title="amazonaws"><img src="https://simpleicons.vercel.app/amazonaws/FF9900" width="36" height="36" alt="amazonaws"/></a> <a href="https://firebase.google.com/" title="firebase"><img src="https://simpleicons.vercel.app/firebase/FFCA28" width="36" height="36" alt="firebase"/></a> <a href="https://vercel.com/" title="vercel"><img src="https://camo.githubusercontent.com/add2c9721e333f0043ac938f3dadbc26a282776e01b95b308fcaba5afaf74ae3/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313538383830353835382f7265706f7369746f726965732f76657263656c2f6c6f676f2e706e67" width="36" height="36" alt="vercel"/></a>
 <!-- Backend -->
@@ -58,7 +58,7 @@
 <!-- VM -->
 <a href="https://virtualbox.org/" title="virtualbox"><img src="https://simpleicons.vercel.app/virtualbox/183A61" width="36" height="36" alt="virtualbox"/></a> <a href="https://vmware.com/" title="vmware"><img src="https://simpleicons.vercel.app/vmware/607078" width="36" height="36" alt="vmware"/></a>
 <!-- Tools -->
-<a href="https://www.selenium.dev/" title="selenium"><img src="https://simpleicons.vercel.app/selenium/43B02A" width="36" height="36" alt="selenium"/></a> <a href="https://www.openvpn.com/" title="openvpn"><img src="https://simpleicons.vercel.app/openvpn/EA7E20" width="36" height="36" alt="openvpn"/></a> <a href="https://www.postman.com/" title="postman"><img src="https://simpleicons.vercel.app/postman/FF6C37" width="36" height="36" alt="postman"/></a> <a href="https://todoist.com/" title="todoist"><img src="https://simpleicons.vercel.app/todoist/E44332" width="36" height="36" alt="todoist"/></a> <a href="https://nodered.org/" title="nodered"><img src="https://simpleicons.vercel.app/nodered/8F0000" width="36" height="36" alt="nodered"/></a> 
+<a href="https://www.selenium.dev/" title="selenium"><img src="https://simpleicons.vercel.app/selenium/43B02A" width="36" height="36" alt="selenium"/></a> <a href="https://www.openvpn.com/" title="openvpn"><img src="https://simpleicons.vercel.app/openvpn/EA7E20" width="36" height="36" alt="openvpn"/></a> <a href="https://www.postman.com/" title="postman"><img src="https://simpleicons.vercel.app/postman/FF6C37" width="36" height="36" alt="postman"/></a> <a href="https://jmeter.apache.org/" title="jmeter"><img src="https://simpleicons.vercel.app/apachejmeter/D22128" width="36" height="36" alt="jmeter"/></a> <a href="https://www.wireshark.org/" title="wireshark"><img src="https://simpleicons.vercel.app/wireshark/1679A7" width="36" height="36" alt="wireshark"/></a> <a href="https://nodered.org/" title="nodered"><img src="https://simpleicons.vercel.app/nodered/8F0000" width="36" height="36" alt="nodered"/></a> <a href="https://todoist.com/" title="todoist"><img src="https://simpleicons.vercel.app/todoist/E44332" width="36" height="36" alt="todoist"/></a>
 <!-- Embedded System -->
 <a href="https://pixhawk.org/" title="drone"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Simple_drone.svg" width="36" height="36" alt="drone"/></a> <a href="https://www.raspberrypi.com/" title="raspberrypi"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" width="36" height="36" alt="raspberrypi"/></a> <a href="https://www.arduino.cc/" title="arduino"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" width="36" height="36" alt="arduino"/></a> 
 <!-- DevOps -->
