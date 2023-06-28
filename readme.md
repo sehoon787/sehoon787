@@ -8,12 +8,11 @@
 
 ### 🔗 Link
 <blockquote>
-<a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-Naver-FFFFFF?style=flat&logo=Naver&logoColor=green"/></a>
-<a href="mailto:tpgns787@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/sehun-kim-5b1265227/"><img src="https://img.shields.io/badge/-LinkedIn-white?style=flat&logo=Linkedin&logoColor=blue"/></a>
+<a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-Naver-FFFFFF?style=flat&logo=Naver&logoColor=green"/></a> <a href="mailto:tpgns787@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white"/></a> <a href="https://midnight-advantage-68f.notion.site/268f7d364e904909a47bfdda053ef4cd?pvs=4"><img src="https://img.shields.io/badge/-Notion-white?style=flat&logo=Notion&logoColor=black"/></a> <a href="https://aliencoder.tistory.com"><img src="https://img.shields.io/badge/Tech%20Blog-555263?style=flat&logoColor=white"/></a>
+</blockquote>
+<blockquote>
 <a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
 <a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
-<a href="https://aliencoder.tistory.com"><img src="https://img.shields.io/badge/Tech%20Blog-555263?style=flat&logoColor=white"/></a>
 </blockquote>
 
 <!-- &nbsp;
