@@ -1,4 +1,4 @@
-## Nothing is faster than Bug Free! 👋🏻
+## Nothing is faster than Bug Free
 
 <a href="https://aliencoder.tistory.com"><img src="assets/image/banner_sd.png" width="100%" alt="" /></a>
 
