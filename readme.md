@@ -18,10 +18,12 @@ https://github.com/scotch-io/All-Github-Emoji-Icons
 <blockquote>
 <a href="mailto:sehoon787@naver.com"><img src="https://img.shields.io/badge/-Naver-FFFFFF?style=flat&logo=Naver&logoColor=green"/></a> <a href="mailto:tpgns787@gmail.com"><img src="https://img.shields.io/badge/-Gmail-D14836?style=flat&logo=Gmail&logoColor=white"/></a> <a href="https://midnight-advantage-68f.notion.site/f7bf48ffbc8248cc95be5c16bf86ed30?pvs=4"><img src="https://img.shields.io/badge/-Notion-white?style=flat&logo=Notion&logoColor=black"/></a> <a href="https://aliencoder.tistory.com"><img src="https://img.shields.io/badge/Tech%20Blog-555263?style=flat&logoColor=white"/></a>
 </blockquote>
+<!-- SNS
 <blockquote>
 <a href="https://instagram.com/sehoon787"><img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=Instagram&logoColor=white"/></a>
 <a href="https://www.facebook.com/sehoon.kim.33"><img src="https://img.shields.io/badge/-Facebook-1877F2?style=flat&logo=Facebook&logoColor=white"/></a>
 </blockquote>
+-->
 
 <!-- 
 &nbsp;
