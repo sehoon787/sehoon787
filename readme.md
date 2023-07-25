@@ -70,8 +70,10 @@ https://github.com/scotch-io/All-Github-Emoji-Icons
 &nbsp;
 ## 💻 GitHub Analytics
 <div align="center">
-  
+
+  <!-- GitHub stats
   [![Alien Coder's GitHub stats](https://github-readme-stats-git-master-sehoon787.vercel.app/api?username=sehoon787&hide=issues&count_private=true&show_owner=true&show_icons=true&include_all_commits=true&line_height=34&theme=radical)](https://github.com/sehoon787/github-readme-stats)
+  -->
   [![Alien Coder's wakatime stats](https://github-readme-stats-git-master-sehoon787.vercel.app/api/wakatime?username=sehoon787\&layout=compact&langs_count=10&theme=radical)](https://github.com/sehoon787/github-readme-stats)
   [![Alien Coder's GitHub Streak Stats](https://github-readme-streak-stats.herokuapp.com?user=sehoon787&hide_border=true&background=0D1117&currStreakLabel=FFFFFF&sideLabels=FFFFFF&currStreakNum=FFFFFF&dates=FFFFFF&sideNums=FFFFFF&fire=db1cff&ring=db1cff&stroke=FFFFFFFF)](https://github.com/DenverCoder1/github-readme-streak-stats)
   
