@@ -1,4 +1,4 @@
-## 📟 Hello.
+## 📟 Hello
 <!-- 
   Emoji from: 
 https://github.com/scotch-io/All-Github-Emoji-Icons
