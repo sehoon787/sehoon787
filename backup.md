@@ -26,7 +26,6 @@ https://github.com/scotch-io/All-Github-Emoji-Icons
 </blockquote>
 -->
 
-<!-- 
 &nbsp;
 ## 🏆 Github Profile Trophy
 <div align="center">
@@ -34,7 +33,6 @@ https://github.com/scotch-io/All-Github-Emoji-Icons
   [![trophy](https://github-profile-trophy.vercel.app/?username=sehoon787&column=8&theme=gruvbox&no-frame=false)](https://github.com/ryo-ma/github-profile-trophy) 
 
 </div>
--->
 
 &nbsp;
 ## 📚 Stack
