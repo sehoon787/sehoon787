@@ -61,9 +61,45 @@ jobs:
       - name: Customize SVG
         run: |
           if [ -f vibe-card.svg ]; then
+            # Icon and title
             sed -i 's/🎸/⚡/g' vibe-card.svg
             sed -i 's/VibeDashboard/AI Dashboard/g' vibe-card.svg
-            echo "Customized SVG: icon and title"
+
+            # Fix model names: VibeDashboard bug shows "4-6" for both opus and sonnet
+            # Replace sequentially: first ">4-6 " → opus-4.6, second ">4-6 " → sonnet-4.6
+            # Opus costs more (~80%), sonnet costs less (~19%), so opus appears first in SVG
+            python3 -c "
+import re
+with open('vibe-card.svg', 'r', encoding='utf-8') as f:
+    content = f.read()
+
+count = [0]
+def replace_model(match):
+    count[0] += 1
+    if count[0] == 1:
+        return '>opus-4.6 '
+    elif count[0] == 2:
+        return '>sonnet-4.6 '
+    return match.group(0)
+
+content = re.sub(r'>4-6 ', replace_model, content)
+
+# Add spacing: move Model Breakdown section down by 25px
+content = content.replace('translate(25, 220)', 'translate(25, 245)')
+
+# Adjust SVG height for extra spacing
+content = content.replace('height=\"374\"', 'height=\"399\"')
+content = content.replace('0 0 900 374', '0 0 900 399')
+content = content.replace('height=\"373\"', 'height=\"398\"')
+
+# Move footer down too
+content = content.replace('y=\"354\"', 'y=\"379\"')
+
+with open('vibe-card.svg', 'w', encoding='utf-8') as f:
+    f.write(content)
+print('Fixed model names and spacing')
+"
+            echo "Customized SVG: icon, title, model names, spacing"
           fi
 
       - name: Commit and push
