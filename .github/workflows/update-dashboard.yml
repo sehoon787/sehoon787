@@ -58,11 +58,12 @@ jobs:
             echo "To add data: run 'npx ccusage daily --json > <account>-cc.json' on each account machine and commit the file."
           fi
 
-      - name: Replace icon in SVG
+      - name: Customize SVG
         run: |
           if [ -f vibe-card.svg ]; then
             sed -i 's/🎸/⚡/g' vibe-card.svg
-            echo "Replaced guitar icon with lightning bolt"
+            sed -i 's/VibeDashboard/AI Dashboard/g' vibe-card.svg
+            echo "Customized SVG: icon and title"
           fi
 
       - name: Commit and push

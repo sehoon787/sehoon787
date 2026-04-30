@@ -13,7 +13,7 @@
   <rect x="0.5" y="0.5" width="899" height="373" rx="4.5" fill="#0d1117" stroke="#30363d"/>
 
   <!-- Title -->
-  <text x="25" y="35" class="title">⚡ VibeDashboard</text>
+  <text x="25" y="35" class="title">⚡ AI Dashboard</text>
 
   <!-- Stats Row -->
   <g transform="translate(25, 60)">
@@ -93,5 +93,5 @@
       <text x="680" y="11" class="model-label">haiku-4.5 1% ($10.70)</text>
     </g>
   </g>
-  <text x="25" y="354" class="footer">Updated: 2026-04-30 01:57 UTC • Powered by <a href="https://github.com/mjyoo2/VibeDashboard" target="_blank">VibeDashboard</a></text>
+  <text x="25" y="354" class="footer">Updated: 2026-04-30 01:57 UTC • Powered by <a href="https://github.com/mjyoo2/AI Dashboard" target="_blank">AI Dashboard</a></text>
 </svg>
