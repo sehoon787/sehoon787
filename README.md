@@ -9,7 +9,7 @@
 ---
 
 <!-- VIBE-DASHBOARD:START -->
-[![Vibe Dashboard](./vibe-card.svg)](https://aliencoder.tistory.com/)
+![Vibe Dashboard](./vibe-card.svg)
 <!-- VIBE-DASHBOARD:END -->
 
 ---
