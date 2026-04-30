@@ -48,11 +48,21 @@ jobs:
           # Files are named *-cc.json (e.g., sehoon787-cc.json, aircok-cc.json).
           # EMAIL_PRIMARY ($EMAIL_PRIMARY) -> sehoon787-cc.json
           # EMAIL_SECONDARY ($EMAIL_SECONDARY) -> aircok-cc.json
-          FILES=$(ls *-cc.json cc.json 2>/dev/null | sort -u | tr '\n' ' ')
-          if [ -n "$FILES" ]; then
-            echo "Generating dashboard from: $FILES"
+          shopt -s nullglob
+          files=( *-cc.json *-codex-cc.json *-opencode-cc.json )
+          if [ -f cc.json ]; then
+            files+=(cc.json)
+          fi
+          if [ "${#files[@]}" -gt 0 ]; then
+            mapfile -t unique_files < <(printf '%s\n' "${files[@]}" | LC_ALL=C sort -u)
+            input_args=()
+            for file in "${unique_files[@]}"; do
+              input_args+=(-i "$file")
+            done
+
+            echo "Generating dashboard from: ${unique_files[*]}"
             vibe-dashboard generate \
-              -i $FILES \
+              "${input_args[@]}" \
               --output ./README.md \
               --svg-output ./vibe-card.svg
           else
@@ -63,51 +73,7 @@ jobs:
       - name: Customize SVG
         run: |
           if [ -f vibe-card.svg ]; then
-            # Icon and title
-            sed -i 's/🎸/⚡/g' vibe-card.svg
-            sed -i 's/VibeDashboard/AI Dashboard/g' vibe-card.svg
-
-            # Fix model names: VibeDashboard bug shows "4-6" for both opus and sonnet
-            # Replace sequentially: first ">4-6 " → opus-4.6, second ">4-6 " → sonnet-4.6
-            # Opus costs more (~80%), sonnet costs less (~19%), so opus appears first in SVG
-            python3 <<'PY'
-            import re
-
-            with open('vibe-card.svg', 'r', encoding='utf-8') as f:
-                content = f.read()
-
-            count = [0]
-
-            def replace_model(match):
-                count[0] += 1
-                if count[0] == 1:
-                    return '>opus-4.6 '
-                if count[0] == 2:
-                    return '>sonnet-4.6 '
-                return match.group(0)
-
-            content = re.sub(r'>4-6 ', replace_model, content)
-
-            # Add spacing: move Model Breakdown section down by 25px
-            content = content.replace('translate(25, 220)', 'translate(25, 245)')
-
-            # Adjust SVG height for extra spacing
-            content = content.replace('height="374"', 'height="399"')
-            content = content.replace('0 0 900 374', '0 0 900 399')
-            content = content.replace('height="373"', 'height="398"')
-
-            # Move footer down too
-            content = content.replace('y="354"', 'y="379"')
-
-            # Remove 'Powered by' from footer
-            content = re.sub(r' • Powered by <a[^>]*>[^<]*</a>', '', content)
-
-            with open('vibe-card.svg', 'w', encoding='utf-8') as f:
-                f.write(content)
-
-            print('Fixed model names, spacing, and removed Powered by')
-            PY
-            echo "Customized SVG: icon, title, model names, spacing"
+            python3 scripts/customize-vibe-card.py
           fi
 
       - name: Commit and push
@@ -115,5 +81,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "VibeDashboard Bot"
           git add README.md vibe-card.svg
-          git diff --quiet && git diff --staged --quiet || git commit -m "📊 Update Vibe Dashboard [skip ci]"
+          if ! git diff --staged --quiet; then
+            git commit -m "📊 Update Vibe Dashboard [skip ci]"
+          fi
           git push

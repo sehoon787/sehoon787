@@ -92,7 +92,11 @@ launchctl load ~/Library/LaunchAgents/com.sehoon787.vibe-sync.plist
 Verify:
 ```bash
 launchctl list | grep vibe
+launchctl kickstart -k gui/$(id -u)/com.sehoon787.vibe-sync
+tail -n 20 ~/sehoon787/scripts/vibe-sync.log
 ```
+
+The macOS scheduler runs the script in a non-login shell. The current `sync-vibe-dashboard.sh` auto-detects `npx` from `~/.nvm/versions/node/*/bin`, so this verification step is the fastest way to confirm scheduled runs can still find Node tools.
 
 ### Windows (PowerShell - Run as Administrator)
 ```powershell
@@ -139,6 +143,7 @@ crontab -l | grep vibe
 | `ccusage` returns empty | Claude Code hasn't been used on this machine yet |
 | `git push` fails | Run `git config credential.helper store` and authenticate |
 | SVG not updating | Check GitHub Actions: https://github.com/sehoon787/sehoon787/actions |
+| macOS scheduled run writes 0-byte JSON | Reload the LaunchAgent, then run `launchctl kickstart -k gui/$(id -u)/com.sehoon787.vibe-sync` and inspect `~/sehoon787/scripts/vibe-sync.log` |
 | Permission denied (Mac) | Run `chmod +x scripts/sync-vibe-dashboard.sh` |
 | Task not running (Windows) | Check Task Scheduler → VibeDashboard Daily Sync → History |
 
