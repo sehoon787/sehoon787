@@ -54,7 +54,7 @@ try {
 
     # Collect Codex data (if available)
     try {
-        $codexOutput = npx @ccusage/codex@latest daily --json 2>$null | Out-String
+        $codexOutput = npx --yes @ccusage/codex@latest daily --json 2>$null | Out-String
         if ($codexOutput -and $codexOutput.Trim().Length -gt 10) {
             $codexFile = Join-Path $RepoDir "$env:COMPUTERNAME-codex-cc.json"
             [System.IO.File]::WriteAllText($codexFile, $codexOutput.Trim(), (New-Object System.Text.UTF8Encoding $false))
@@ -67,7 +67,7 @@ try {
 
     # Collect OpenCode data (if available)
     try {
-        $openOutput = npx @ccusage/opencode@latest daily --json 2>$null | Out-String
+        $openOutput = npx --yes @ccusage/opencode@latest daily --json 2>$null | Out-String
         if ($openOutput -and $openOutput.Trim().Length -gt 10) {
             $openFile = Join-Path $RepoDir "$env:COMPUTERNAME-opencode-cc.json"
             [System.IO.File]::WriteAllText($openFile, $openOutput.Trim(), (New-Object System.Text.UTF8Encoding $false))
@@ -80,7 +80,14 @@ try {
 
     # Stage and push
     $ErrorActionPreference = "Continue"
-    git add *-cc.json *-codex-cc.json *-opencode-cc.json 2>&1 | Out-Null
+    $filesToAdd = Get-ChildItem -Path $RepoDir -File | Where-Object {
+        $_.Name -like "*-cc.json" -or
+        $_.Name -like "*-codex-cc.json" -or
+        $_.Name -like "*-opencode-cc.json"
+    } | ForEach-Object { $_.FullName }
+    if ($filesToAdd) {
+        git add -- $filesToAdd 2>&1 | Out-Null
+    }
     git diff --staged --quiet 2>&1 | Out-Null
     $hasStagedChanges = ($LASTEXITCODE -ne 0)
     $ErrorActionPreference = "Stop"
