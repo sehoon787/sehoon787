@@ -98,7 +98,7 @@ fi
 # Stage and push
 git add *-cc.json *-codex-cc.json *-opencode-cc.json 2>/dev/null
 if ! git diff --staged --quiet 2>/dev/null; then
-    git commit -m "update: usage data from $(hostname -s) [skip ci]"
+    git commit -m "update: usage data from $(hostname -s)"
     if git push origin main > /dev/null 2>&1; then
         log "Pushed successfully"
     else

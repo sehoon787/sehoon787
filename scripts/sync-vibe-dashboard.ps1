@@ -92,7 +92,7 @@ try {
     $hasStagedChanges = ($LASTEXITCODE -ne 0)
     $ErrorActionPreference = "Stop"
     if ($hasStagedChanges) {
-        git commit -m "update: daily usage data from $env:COMPUTERNAME [skip ci]"
+        git commit -m "update: daily usage data from $env:COMPUTERNAME"
         $ErrorActionPreference = "Continue"
         git push origin main 2>&1 | Out-Null
         $ErrorActionPreference = "Stop"
