@@ -5,7 +5,7 @@
 ---
 
 <!-- VIBE-DASHBOARD:START -->
-![Vibe Dashboard](./vibe-card.svg)
+![AI Dashboard](./ai-dashboard-card.svg)
 <!-- VIBE-DASHBOARD:END -->
 
 ---

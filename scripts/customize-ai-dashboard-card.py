@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 
-svg_path = Path("vibe-card.svg")
+svg_path = Path("ai-dashboard-card.svg")
 content = svg_path.read_text(encoding="utf-8")
 
 content = content.replace("🎸", "⚡")
@@ -32,4 +32,4 @@ content = content.replace('y="354"', 'y="379"')
 content = re.sub(r" • Powered by <a[^>]*>[^<]*</a>", "", content)
 
 svg_path.write_text(content, encoding="utf-8")
-print("Customized vibe-card.svg")
+print("Customized ai-dashboard-card.svg")

@@ -1,4 +1,4 @@
-name: Update Vibe Dashboard
+name: Update AI Dashboard
 
 # HOW CCUSAGE DATA COLLECTION WORKS:
 # ccusage reads local Claude Code session data from ~/.claude/projects/ on your machine.
@@ -68,9 +68,10 @@ jobs:
 
             echo "Generating dashboard from: ${unique_files[*]}"
             vibe-dashboard generate \
+              --config ./ai-dashboard-config.json \
               "${input_args[@]}" \
               --output ./README.md \
-              --svg-output ./vibe-card.svg
+              --svg-output ./ai-dashboard-card.svg
           else
             echo "No *-cc.json files found. Skipping dashboard generation."
             echo "To add data: run 'npx ccusage daily --json > <account>-cc.json' on each account machine and commit the file."
@@ -78,16 +79,16 @@ jobs:
 
       - name: Customize SVG
         run: |
-          if [ -f vibe-card.svg ]; then
-            python3 scripts/customize-vibe-card.py
+          if [ -f ai-dashboard-card.svg ]; then
+            python3 scripts/customize-ai-dashboard-card.py
           fi
 
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "VibeDashboard Bot"
-          git add README.md vibe-card.svg
+          git config --local user.name "AI Dashboard Bot"
+          git add README.md ai-dashboard-card.svg
           if ! git diff --staged --quiet; then
-            git commit -m "📊 Update Vibe Dashboard [skip ci]"
+            git commit -m "📊 Update AI Dashboard [skip ci]"
           fi
           git push
