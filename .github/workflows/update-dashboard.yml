@@ -95,9 +95,12 @@ content = content.replace('height=\"373\"', 'height=\"398\"')
 # Move footer down too
 content = content.replace('y=\"354\"', 'y=\"379\"')
 
+# Remove 'Powered by' from footer
+content = re.sub(r' • Powered by <a[^>]*>[^<]*</a>', '', content)
+
 with open('vibe-card.svg', 'w', encoding='utf-8') as f:
     f.write(content)
-print('Fixed model names and spacing')
+print('Fixed model names, spacing, and removed Powered by')
 "
             echo "Customized SVG: icon, title, model names, spacing"
           fi
