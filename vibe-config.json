@@ -1,0 +1,16 @@
+{
+  "theme": "dark",
+  "layout": "card",
+  "period": "all",
+  "language": "ko",
+  "currencySymbol": "$",
+  "chartDays": 14,
+  "showItems": {
+    "totalTokens": true,
+    "totalCost": true,
+    "periodChart": true,
+    "modelBreakdown": true,
+    "dailyAverage": true,
+    "lastUpdated": true
+  }
+}

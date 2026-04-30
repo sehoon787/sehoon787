@@ -1,0 +1,43 @@
+name: Update Vibe Dashboard
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - '*-cc.json'
+      - 'cc.json'
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install -g vibe-dashboard
+
+      - name: Generate dashboard
+        run: |
+          FILES=$(ls *-cc.json cc.json 2>/dev/null | sort -u | tr '\n' ' ')
+          if [ -n "$FILES" ]; then
+            vibe-dashboard generate \
+              -i $FILES \
+              --output ./README.md \
+              --svg-output ./vibe-card.svg
+          fi
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "VibeDashboard Bot"
+          git add README.md vibe-card.svg
+          git diff --quiet && git diff --staged --quiet || git commit -m "📊 Update Vibe Dashboard [skip ci]"
+          git push
