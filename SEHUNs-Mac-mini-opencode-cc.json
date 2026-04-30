@@ -21,7 +21,7 @@
       "cacheCreationTokens": 6720107,
       "cacheReadTokens": 131750828,
       "totalTokens": 146440369,
-      "totalCost": 115.9107153500001,
+      "totalCost": 115.91071535000016,
       "modelsUsed": [
         "claude-opus-4-5-20251101",
         "antigravity-claude-sonnet-4-5",
