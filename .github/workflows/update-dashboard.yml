@@ -49,7 +49,13 @@ jobs:
           # EMAIL_PRIMARY ($EMAIL_PRIMARY) -> sehoon787-cc.json
           # EMAIL_SECONDARY ($EMAIL_SECONDARY) -> aircok-cc.json
           shopt -s nullglob
-          files=( *-cc.json *-codex-cc.json *-opencode-cc.json )
+          mapfile -t files < <(
+            find . -maxdepth 1 -type f \
+              -name '*-cc.json' \
+              ! -name '*-codex-cc.json' \
+              ! -name '*-opencode-cc.json' \
+              -printf '%f\n' | LC_ALL=C sort -u
+          )
           if [ -f cc.json ]; then
             files+=(cc.json)
           fi
