@@ -58,6 +58,13 @@ jobs:
             echo "To add data: run 'npx ccusage daily --json > <account>-cc.json' on each account machine and commit the file."
           fi
 
+      - name: Replace icon in SVG
+        run: |
+          if [ -f vibe-card.svg ]; then
+            sed -i 's/🎸/⚡/g' vibe-card.svg
+            echo "Replaced guitar icon with lightning bolt"
+          fi
+
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"

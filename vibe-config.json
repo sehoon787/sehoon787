@@ -2,7 +2,7 @@
   "theme": "dark",
   "layout": "card",
   "period": "all",
-  "language": "ko",
+  "language": "en",
   "currencySymbol": "$",
   "chartDays": 14,
   "showItems": {
