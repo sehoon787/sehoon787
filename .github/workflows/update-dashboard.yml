@@ -1,4 +1,4 @@
-name: Update AI Dashboard
+name: Update Vibe Dashboard
 
 # HOW CCUSAGE DATA COLLECTION WORKS:
 # ccusage reads local Claude Code session data from ~/.claude/projects/ on your machine.
@@ -39,6 +39,22 @@ jobs:
 
       - run: npm install -g vibe-dashboard
 
+      - name: Normalize Codex Usage
+        run: |
+          rm -rf .dashboard-inputs
+          mkdir -p .dashboard-inputs
+
+          shopt -s nullglob
+          codex_files=( *-codex-cc.json )
+          if [ "${#codex_files[@]}" -gt 0 ]; then
+            for codex_file in "${codex_files[@]}"; do
+              base_name="${codex_file%-codex-cc.json}"
+              python3 scripts/normalize-codex-to-ccusage.py \
+                "$codex_file" \
+                ".dashboard-inputs/${base_name}-codex-normalized.json"
+            done
+          fi
+
       - name: Generate dashboard
         env:
           EMAIL_PRIMARY: ${{ secrets.EMAIL_PRIMARY }}
@@ -56,8 +72,14 @@ jobs:
               ! -name '*-opencode-cc.json' \
               -printf '%f\n' | LC_ALL=C sort -u
           )
+          mapfile -t normalized_codex_files < <(
+            find .dashboard-inputs -maxdepth 1 -type f -name '*-codex-normalized.json' -printf '%p\n' 2>/dev/null | LC_ALL=C sort -u
+          )
           if [ -f cc.json ]; then
             files+=(cc.json)
+          fi
+          if [ "${#normalized_codex_files[@]}" -gt 0 ]; then
+            files+=("${normalized_codex_files[@]}")
           fi
           if [ "${#files[@]}" -gt 0 ]; then
             mapfile -t unique_files < <(printf '%s\n' "${files[@]}" | LC_ALL=C sort -u)
@@ -68,10 +90,10 @@ jobs:
 
             echo "Generating dashboard from: ${unique_files[*]}"
             vibe-dashboard generate \
-              --config ./ai-dashboard-config.json \
+              --config ./vibe-config.json \
               "${input_args[@]}" \
               --output ./README.md \
-              --svg-output ./ai-dashboard-card.svg
+              --svg-output ./vibe-card.svg
           else
             echo "No *-cc.json files found. Skipping dashboard generation."
             echo "To add data: run 'npx ccusage daily --json > <account>-cc.json' on each account machine and commit the file."
@@ -79,16 +101,16 @@ jobs:
 
       - name: Customize SVG
         run: |
-          if [ -f ai-dashboard-card.svg ]; then
-            python3 scripts/customize-ai-dashboard-card.py
+          if [ -f vibe-card.svg ]; then
+            python3 scripts/customize-vibe-card.py
           fi
 
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
-          git config --local user.name "AI Dashboard Bot"
-          git add README.md ai-dashboard-card.svg
+          git config --local user.name "VibeDashboard Bot"
+          git add README.md vibe-card.svg
           if ! git diff --staged --quiet; then
-            git commit -m "📊 Update AI Dashboard [skip ci]"
+            git commit -m "📊 Update Vibe Dashboard [skip ci]"
           fi
           git push

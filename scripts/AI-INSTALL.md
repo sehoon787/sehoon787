@@ -1,6 +1,6 @@
-# AI Dashboard - Auto Install Guide
+# VibeDashboard - Auto Install Guide
 
-> This guide helps AI agents or users set up AI Dashboard sync on a new PC.
+> This guide helps AI agents or users set up VibeDashboard sync on a new PC.
 > 
 > **Usage:** Ask an AI agent (e.g., Claude Code) like this:
 > ```
@@ -65,14 +65,14 @@ If output is valid JSON with `daily` array, proceed. If empty or error, ensure C
 ### Mac/Linux
 ```bash
 cd ~/sehoon787
-chmod +x scripts/sync-ai-dashboard.sh
-./scripts/sync-ai-dashboard.sh
+chmod +x scripts/sync-vibe-dashboard.sh
+./scripts/sync-vibe-dashboard.sh
 ```
 
 ### Windows (PowerShell)
 ```powershell
 cd $env:USERPROFILE\sehoon787
-powershell -ExecutionPolicy Bypass -File scripts\sync-ai-dashboard.ps1
+powershell -ExecutionPolicy Bypass -File scripts\sync-vibe-dashboard.ps1
 ```
 
 Check the log output. Expected:
@@ -85,22 +85,22 @@ Check the log output. Expected:
 
 ### macOS
 ```bash
-cp ~/sehoon787/scripts/com.sehoon787.ai-dashboard-sync.plist ~/Library/LaunchAgents/
-launchctl load ~/Library/LaunchAgents/com.sehoon787.ai-dashboard-sync.plist
+cp ~/sehoon787/scripts/com.sehoon787.vibe-sync.plist ~/Library/LaunchAgents/
+launchctl load ~/Library/LaunchAgents/com.sehoon787.vibe-sync.plist
 ```
 
 Verify:
 ```bash
-launchctl list | grep ai-dashboard
-launchctl kickstart -k gui/$(id -u)/com.sehoon787.ai-dashboard-sync
-tail -n 20 ~/sehoon787/scripts/ai-dashboard-sync.log
+launchctl list | grep vibe
+launchctl kickstart -k gui/$(id -u)/com.sehoon787.vibe-sync
+tail -n 20 ~/sehoon787/scripts/vibe-sync.log
 ```
 
-The macOS scheduler runs the script in a non-login shell. The current `sync-ai-dashboard.sh` auto-detects `npx` from `~/.nvm/versions/node/*/bin`, so this verification step is the fastest way to confirm scheduled runs can still find Node tools.
+The macOS scheduler runs the script in a non-login shell. The current `sync-vibe-dashboard.sh` auto-detects `npx` from `~/.nvm/versions/node/*/bin`, so this verification step is the fastest way to confirm scheduled runs can still find Node tools.
 
 ### Windows (PowerShell - Run as Administrator)
 ```powershell
-$script = "$env:USERPROFILE\sehoon787\scripts\sync-ai-dashboard.ps1"
+$script = "$env:USERPROFILE\sehoon787\scripts\sync-vibe-dashboard.ps1"
 $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$script`""
 $triggers = @(
     New-ScheduledTaskTrigger -Daily -At "00:00AM"
@@ -109,29 +109,29 @@ $triggers = @(
     New-ScheduledTaskTrigger -Daily -At "06:00PM"
 )
 $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable
-Register-ScheduledTask -TaskName "AI Dashboard Daily Sync" -Action $action -Trigger $triggers -Settings $settings -Description "AI Dashboard sync every 6h" -Force
+Register-ScheduledTask -TaskName "VibeDashboard Daily Sync" -Action $action -Trigger $triggers -Settings $settings -Description "VibeDashboard sync every 6h" -Force
 ```
 
 Verify:
 ```powershell
-Get-ScheduledTask -TaskName "AI Dashboard Daily Sync" | Select-Object State
+Get-ScheduledTask -TaskName "VibeDashboard Daily Sync" | Select-Object State
 ```
 
 ### Linux (cron)
 ```bash
-chmod +x ~/sehoon787/scripts/sync-ai-dashboard.sh
-(crontab -l 2>/dev/null; echo "0 */6 * * * ~/sehoon787/scripts/sync-ai-dashboard.sh") | crontab -
+chmod +x ~/sehoon787/scripts/sync-vibe-dashboard.sh
+(crontab -l 2>/dev/null; echo "0 */6 * * * ~/sehoon787/scripts/sync-vibe-dashboard.sh") | crontab -
 ```
 
 Verify:
 ```bash
-crontab -l | grep ai-dashboard
+crontab -l | grep vibe
 ```
 
 ## Step 7: Verify Dashboard
 
 1. Visit https://github.com/sehoon787
-2. AI Dashboard SVG should display usage data
+2. Vibe Dashboard SVG should display usage data
 3. Data updates every 6 hours automatically
 
 ---
@@ -143,9 +143,9 @@ crontab -l | grep ai-dashboard
 | `ccusage` returns empty | Claude Code hasn't been used on this machine yet |
 | `git push` fails | Run `git config credential.helper store` and authenticate |
 | SVG not updating | Check GitHub Actions: https://github.com/sehoon787/sehoon787/actions |
-| macOS scheduled run writes 0-byte JSON | Reload the LaunchAgent, then run `launchctl kickstart -k gui/$(id -u)/com.sehoon787.ai-dashboard-sync` and inspect `~/sehoon787/scripts/ai-dashboard-sync.log` |
-| Permission denied (Mac) | Run `chmod +x scripts/sync-ai-dashboard.sh` |
-| Task not running (Windows) | Check Task Scheduler → AI Dashboard Daily Sync → History |
+| macOS scheduled run writes 0-byte JSON | Reload the LaunchAgent, then run `launchctl kickstart -k gui/$(id -u)/com.sehoon787.vibe-sync` and inspect `~/sehoon787/scripts/vibe-sync.log` |
+| Permission denied (Mac) | Run `chmod +x scripts/sync-vibe-dashboard.sh` |
+| Task not running (Windows) | Check Task Scheduler → VibeDashboard Daily Sync → History |
 
 ## File Naming Convention
 
@@ -168,14 +168,14 @@ GitHub Actions merges all `*-cc.json` files into a single dashboard.
 
 ### macOS
 ```bash
-launchctl unload ~/Library/LaunchAgents/com.sehoon787.ai-dashboard-sync.plist
-rm ~/Library/LaunchAgents/com.sehoon787.ai-dashboard-sync.plist
+launchctl unload ~/Library/LaunchAgents/com.sehoon787.vibe-sync.plist
+rm ~/Library/LaunchAgents/com.sehoon787.vibe-sync.plist
 rm -rf ~/sehoon787
 ```
 
 ### Windows
 ```powershell
-Unregister-ScheduledTask -TaskName "AI Dashboard Daily Sync" -Confirm:$false
+Unregister-ScheduledTask -TaskName "VibeDashboard Daily Sync" -Confirm:$false
 Remove-Item -Recurse -Force $env:USERPROFILE\sehoon787
 ```
 

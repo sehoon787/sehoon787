@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.sehoon787.ai-dashboard-sync</string>
+    <string>com.sehoon787.vibe-sync</string>
     <key>ProgramArguments</key>
     <array>
         <string>/bin/bash</string>
         <string>-c</string>
-        <string>$HOME/sehoon787/scripts/sync-ai-dashboard.sh</string>
+        <string>$HOME/sehoon787/scripts/sync-vibe-dashboard.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <array>
@@ -38,9 +38,9 @@
         </dict>
     </array>
     <key>StandardOutPath</key>
-    <string>/tmp/ai-dashboard-sync-stdout.log</string>
+    <string>/tmp/vibe-sync-stdout.log</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/ai-dashboard-sync-stderr.log</string>
+    <string>/tmp/vibe-sync-stderr.log</string>
     <key>EnvironmentVariables</key>
     <dict>
         <key>PATH</key>

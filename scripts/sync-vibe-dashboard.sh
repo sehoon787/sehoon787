@@ -1,18 +1,18 @@
 #!/bin/bash
-# AI Dashboard Daily Sync Script (Mac/Linux)
+# VibeDashboard Daily Sync Script (Mac/Linux)
 # Collects ccusage data and pushes to sehoon787/sehoon787 profile repo
 #
 # SETUP:
 #   1. git clone https://github.com/sehoon787/sehoon787.git ~/sehoon787
 #   2. npm install -g ccusage (or use npx)
-#   3. chmod +x ~/sehoon787/scripts/sync-ai-dashboard.sh
-#   4. Mac: cp ~/sehoon787/scripts/com.sehoon787.ai-dashboard-sync.plist ~/Library/LaunchAgents/
-#          launchctl load ~/Library/LaunchAgents/com.sehoon787.ai-dashboard-sync.plist
-#      Linux: crontab -e -> 0 6 * * * ~/sehoon787/scripts/sync-ai-dashboard.sh
+#   3. chmod +x ~/sehoon787/scripts/sync-vibe-dashboard.sh
+#   4. Mac: cp ~/sehoon787/scripts/com.sehoon787.vibe-sync.plist ~/Library/LaunchAgents/
+#          launchctl load ~/Library/LaunchAgents/com.sehoon787.vibe-sync.plist
+#      Linux: crontab -e -> 0 6 * * * ~/sehoon787/scripts/sync-vibe-dashboard.sh
 
 REPO_DIR="${1:-$HOME/sehoon787}"
 DATA_FILE="$(hostname -s)-cc.json"
-LOG_FILE="$(dirname "$0")/ai-dashboard-sync.log"
+LOG_FILE="$(dirname "$0")/vibe-sync.log"
 
 if [ -d "$HOME/.nvm/versions/node" ]; then
     NVM_BIN_DIR=$(find "$HOME/.nvm/versions/node" -maxdepth 2 -type d -name bin 2>/dev/null | sort -V | tail -n 1)

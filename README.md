@@ -5,7 +5,7 @@
 ---
 
 <!-- VIBE-DASHBOARD:START -->
-![Vibe Dashboard](./ai-dashboard-card.svg)
+[![Vibe Dashboard](./vibe-card.svg)](https://aliencoder.tistory.com/)
 <!-- VIBE-DASHBOARD:END -->
 
 ---

@@ -1,4 +1,4 @@
-# AI Dashboard Daily Sync Script
+# VibeDashboard Daily Sync Script
 # Collects ccusage data and pushes to sehoon787/sehoon787 profile repo
 #
 # SETUP ON ANY PC:
@@ -9,7 +9,7 @@
 #      $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument "-NoProfile -ExecutionPolicy Bypass -File `"<SCRIPT_PATH>`""
 #      $trigger = New-ScheduledTaskTrigger -Daily -At "06:00AM"
 #      $settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -StartWhenAvailable
-#      Register-ScheduledTask -TaskName "AI Dashboard Daily Sync" -Action $action -Trigger $trigger -Settings $settings -Force
+#      Register-ScheduledTask -TaskName "VibeDashboard Daily Sync" -Action $action -Trigger $trigger -Settings $settings -Force
 
 param(
     [string]$RepoDir = "$env:USERPROFILE\sehoon787",
@@ -17,7 +17,7 @@ param(
 )
 
 $ErrorActionPreference = "Stop"
-$LogFile = Join-Path (Split-Path $MyInvocation.MyCommand.Path) "ai-dashboard-sync.log"
+$LogFile = Join-Path (Split-Path $MyInvocation.MyCommand.Path) "vibe-sync.log"
 
 function Write-Log($msg) {
     $ts = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
