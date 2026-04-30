@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 # VibeDashboard Daily Sync Script (Mac/Linux)
 # Collects ccusage data and pushes to sehoon787/sehoon787 profile repo
 #
@@ -18,6 +18,19 @@ log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') $1" >> "$LOG_FILE"
 }
 
+run_with_timeout() {
+    local seconds="$1"
+    shift
+
+    if command -v gtimeout >/dev/null 2>&1; then
+        gtimeout "$seconds" "$@"
+    elif command -v timeout >/dev/null 2>&1; then
+        timeout "$seconds" "$@"
+    else
+        "$@"
+    fi
+}
+
 log "=== Sync started (host: $(hostname -s), file: $DATA_FILE) ==="
 
 # Ensure repo exists
@@ -27,7 +40,10 @@ if [ ! -d "$REPO_DIR" ]; then
 fi
 
 cd "$REPO_DIR" || { log "ERROR: Cannot cd to $REPO_DIR"; exit 1; }
-git pull origin main > /dev/null 2>&1
+if ! git pull --rebase origin main > /dev/null 2>&1; then
+    log "ERROR: git pull --rebase failed"
+    exit 1
+fi
 log "Pulled latest"
 
 # Collect ccusage data (no BOM on Mac/Linux by default)
@@ -42,32 +58,36 @@ fi
 
 # Collect Codex data (if available)
 CODEX_FILE="$(hostname -s)-codex-cc.json"
-CODEX_OUTPUT=$(npx @ccusage/codex@latest daily --json 2>/dev/null)
+CODEX_OUTPUT=$(run_with_timeout 30s npx --yes @ccusage/codex@latest daily --json 2>/dev/null)
 if [ ${#CODEX_OUTPUT} -gt 10 ]; then
     echo "$CODEX_OUTPUT" > "$CODEX_FILE"
     git add "$CODEX_FILE"
     log "Codex data collected: $(wc -c < "$CODEX_FILE" | tr -d ' ') bytes"
 else
-    log "Codex: not available (skipped)"
+    log "Codex: not available or timed out (skipped)"
 fi
 
 # Collect OpenCode data (if available)
 OPENCODE_FILE="$(hostname -s)-opencode-cc.json"
-OPENCODE_OUTPUT=$(npx @ccusage/opencode@latest daily --json 2>/dev/null)
+OPENCODE_OUTPUT=$(run_with_timeout 30s npx --yes @ccusage/opencode@latest daily --json 2>/dev/null)
 if [ ${#OPENCODE_OUTPUT} -gt 10 ]; then
     echo "$OPENCODE_OUTPUT" > "$OPENCODE_FILE"
     git add "$OPENCODE_FILE"
     log "OpenCode data collected: $(wc -c < "$OPENCODE_FILE" | tr -d ' ') bytes"
 else
-    log "OpenCode: not available (skipped)"
+    log "OpenCode: not available or timed out (skipped)"
 fi
 
 # Stage and push
 git add *-cc.json *-codex-cc.json *-opencode-cc.json 2>/dev/null
 if ! git diff --staged --quiet 2>/dev/null; then
     git commit -m "update: usage data from $(hostname -s) [skip ci]"
-    git push origin main > /dev/null 2>&1
-    log "Pushed successfully"
+    if git push origin main > /dev/null 2>&1; then
+        log "Pushed successfully"
+    else
+        log "ERROR: git push failed"
+        exit 1
+    fi
 else
     log "No changes to push"
 fi
