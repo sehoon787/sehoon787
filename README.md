@@ -10,12 +10,9 @@
 
 ---
 
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=sehoon787&layout=compact&theme=radical&bg_color=0D1117&hide_border=true" alt="WakaTime Stats" />
-
-  <img src="https://streak-stats.demolab.com?user=sehoon787&theme=radical&background=0D1117&hide_border=true" alt="GitHub Streak" />
-
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=sehoon787&layout=compact&theme=radical&bg_color=0D1117&hide_border=true" alt="WakaTime Stats" height="195" />
+  <img src="https://streak-stats.demolab.com?user=sehoon787&theme=radical&background=0D1117&hide_border=true" alt="GitHub Streak" height="195" />
+</p>
 
 <p align="right"><sub>v2.0.0</sub></p>
