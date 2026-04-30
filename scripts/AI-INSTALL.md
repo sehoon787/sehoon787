@@ -1,8 +1,8 @@
 # AI Dashboard - Auto Install Guide
 
-> 이 문서는 AI 에이전트 또는 사용자가 새로운 PC에서 AI Dashboard 동기화를 설정하기 위한 설치 가이드입니다.
+> This guide helps AI agents or users set up AI Dashboard sync on a new PC.
 > 
-> **사용법:** Claude Code 등 AI 에이전트에게 아래와 같이 요청하세요:
+> **Usage:** Ask an AI agent (e.g., Claude Code) like this:
 > ```
 > Read https://raw.githubusercontent.com/sehoon787/sehoon787/main/scripts/AI-INSTALL.md and follow every step.
 > ```
@@ -27,13 +27,31 @@ git clone https://github.com/sehoon787/sehoon787.git ~/sehoon787
 git clone https://github.com/sehoon787/sehoon787.git $env:USERPROFILE\sehoon787
 ```
 
-## Step 2: Install ccusage
+## Step 2: Configure GitHub Secrets
+
+> **This step is only required when creating a new repository or forking.**
+> If you are installing on another PC using the existing sehoon787/sehoon787 repo, Secrets are already configured — skip this step.
+
+Register email addresses in GitHub Secrets to prevent exposure in GitHub Actions workflows.
+
+1. Go to https://github.com/sehoon787/sehoon787/settings/secrets/actions
+2. Click **New repository secret**
+3. Add the following secrets:
+
+| Name | Value |
+|------|-------|
+| `EMAIL_PRIMARY` | Primary email address |
+| `EMAIL_SECONDARY` | Secondary email address |
+
+These secrets are used as commit author information in `.github/workflows/update-dashboard.yml`.
+
+## Step 3: Install ccusage
 
 ```bash
 npm install -g ccusage
 ```
 
-## Step 3: Test Data Collection
+## Step 4: Test Data Collection
 
 ```bash
 # Verify ccusage works
@@ -42,7 +60,7 @@ npx ccusage daily --json
 
 If output is valid JSON with `daily` array, proceed. If empty or error, ensure Claude Code has been used on this machine.
 
-## Step 4: Run Initial Sync
+## Step 5: Run Initial Sync
 
 ### Mac/Linux
 ```bash
@@ -63,7 +81,7 @@ Check the log output. Expected:
 - `OpenCode: not available (skipped)` ← Normal if not using OpenCode
 - `Pushed successfully` or `No changes to push` ✅
 
-## Step 5: Schedule Automatic Sync (Every 6 Hours)
+## Step 6: Schedule Automatic Sync (Every 6 Hours)
 
 ### macOS
 ```bash
@@ -106,7 +124,7 @@ Verify:
 crontab -l | grep vibe
 ```
 
-## Step 6: Verify Dashboard
+## Step 7: Verify Dashboard
 
 1. Visit https://github.com/sehoon787
 2. AI Dashboard SVG should display usage data
