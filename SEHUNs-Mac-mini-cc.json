@@ -1473,33 +1473,33 @@
     },
     {
       "date": "2026-04-30",
-      "inputTokens": 1176,
-      "outputTokens": 189595,
-      "cacheCreationTokens": 1806517,
-      "cacheReadTokens": 117924329,
-      "totalTokens": 119921617,
-      "totalCost": 74.99865075000005,
+      "inputTokens": 1185,
+      "outputTokens": 192304,
+      "cacheCreationTokens": 1865536,
+      "cacheReadTokens": 118142799,
+      "totalTokens": 120201824,
+      "totalCost": 75.54452450000007,
       "modelsUsed": [
         "claude-opus-4-6"
       ],
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-4-6",
-          "inputTokens": 1176,
-          "outputTokens": 189595,
-          "cacheCreationTokens": 1806517,
-          "cacheReadTokens": 117924329,
-          "cost": 74.99865075000005
+          "inputTokens": 1185,
+          "outputTokens": 192304,
+          "cacheCreationTokens": 1865536,
+          "cacheReadTokens": 118142799,
+          "cost": 75.54452450000007
         }
       ]
     }
   ],
   "totals": {
-    "inputTokens": 1439349,
-    "outputTokens": 4420242,
-    "cacheCreationTokens": 84291155,
-    "cacheReadTokens": 1615491889,
-    "totalCost": 1042.6237949500003,
-    "totalTokens": 1705642635
+    "inputTokens": 1439358,
+    "outputTokens": 4422951,
+    "cacheCreationTokens": 84350174,
+    "cacheReadTokens": 1615710359,
+    "totalCost": 1043.1696687,
+    "totalTokens": 1705922842
   }
 }
