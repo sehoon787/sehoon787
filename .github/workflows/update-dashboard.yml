@@ -1,5 +1,18 @@
 name: Update Vibe Dashboard
 
+# HOW CCUSAGE DATA COLLECTION WORKS:
+# ccusage reads local Claude Code session data from ~/.claude/projects/ on your machine.
+# It does NOT use email addresses or connect to any cloud service.
+#
+# To update the dashboard with data from multiple accounts:
+# 1. On each machine/account, run: npx ccusage daily --json > <account>-cc.json
+# 2. Commit the generated *-cc.json files to this repo
+# 3. This workflow will automatically merge them and regenerate the dashboard
+#
+# Account mapping (stored as secrets for reference, not used by ccusage directly):
+#   EMAIL_PRIMARY   -> sehoon787-cc.json   (sehoon787@naver.com account)
+#   EMAIL_SECONDARY -> aircok-cc.json      (aircok0115@gmail.com account)
+
 on:
   schedule:
     - cron: '0 0 * * *'
@@ -25,13 +38,24 @@ jobs:
       - run: npm install -g vibe-dashboard
 
       - name: Generate dashboard
+        env:
+          EMAIL_PRIMARY: ${{ secrets.EMAIL_PRIMARY }}
+          EMAIL_SECONDARY: ${{ secrets.EMAIL_SECONDARY }}
         run: |
+          # Collect all ccusage JSON data files from both accounts.
+          # Files are named *-cc.json (e.g., sehoon787-cc.json, aircok-cc.json).
+          # EMAIL_PRIMARY ($EMAIL_PRIMARY) -> sehoon787-cc.json
+          # EMAIL_SECONDARY ($EMAIL_SECONDARY) -> aircok-cc.json
           FILES=$(ls *-cc.json cc.json 2>/dev/null | sort -u | tr '\n' ' ')
           if [ -n "$FILES" ]; then
+            echo "Generating dashboard from: $FILES"
             vibe-dashboard generate \
               -i $FILES \
               --output ./README.md \
               --svg-output ./vibe-card.svg
+          else
+            echo "No *-cc.json files found. Skipping dashboard generation."
+            echo "To add data: run 'npx ccusage daily --json > <account>-cc.json' on each account machine and commit the file."
           fi
 
       - name: Commit and push
