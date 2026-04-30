@@ -15,11 +15,13 @@ name: Update Vibe Dashboard
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 */6 * * *'
   workflow_dispatch:
   push:
     paths:
       - '*-cc.json'
+      - '*-codex-cc.json'
+      - '*-opencode-cc.json'
       - 'cc.json'
 
 jobs:

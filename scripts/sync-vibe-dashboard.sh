@@ -40,10 +40,32 @@ if [ "$FILE_SIZE" -lt 10 ]; then
     exit 0
 fi
 
+# Collect Codex data (if available)
+CODEX_FILE="$(hostname -s)-codex-cc.json"
+CODEX_OUTPUT=$(npx @ccusage/codex@latest daily --json 2>/dev/null)
+if [ ${#CODEX_OUTPUT} -gt 10 ]; then
+    echo "$CODEX_OUTPUT" > "$CODEX_FILE"
+    git add "$CODEX_FILE"
+    log "Codex data collected: $(wc -c < "$CODEX_FILE" | tr -d ' ') bytes"
+else
+    log "Codex: not available (skipped)"
+fi
+
+# Collect OpenCode data (if available)
+OPENCODE_FILE="$(hostname -s)-opencode-cc.json"
+OPENCODE_OUTPUT=$(npx @ccusage/opencode@latest daily --json 2>/dev/null)
+if [ ${#OPENCODE_OUTPUT} -gt 10 ]; then
+    echo "$OPENCODE_OUTPUT" > "$OPENCODE_FILE"
+    git add "$OPENCODE_FILE"
+    log "OpenCode data collected: $(wc -c < "$OPENCODE_FILE" | tr -d ' ') bytes"
+else
+    log "OpenCode: not available (skipped)"
+fi
+
 # Stage and push
-git add "$DATA_FILE"
+git add *-cc.json *-codex-cc.json *-opencode-cc.json 2>/dev/null
 if ! git diff --staged --quiet 2>/dev/null; then
-    git commit -m "update: daily ccusage data from $(hostname -s) [skip ci]"
+    git commit -m "update: usage data from $(hostname -s) [skip ci]"
     git push origin main > /dev/null 2>&1
     log "Pushed successfully"
 else
