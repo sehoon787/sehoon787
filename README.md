@@ -11,7 +11,7 @@
 ---
 
 <table align="center"><tr>
-<td><img src="https://github-readme-stats.vercel.app/api/wakatime?username=sehoon787&layout=compact&theme=radical&bg_color=0D1117&hide_border=true&cache_seconds=1800" alt="WakaTime Stats" height="195" /></td>
+<td><img src="https://github-readme-stats.vercel.app/api/wakatime?username=sehoon787&layout=compact&theme=radical&bg_color=0D1117&hide_border=true&langs_count=10&hide=Other&cache_seconds=1800" alt="WakaTime Stats" height="195" /></td>
 <td><img src="https://streak-stats.demolab.com?user=sehoon787&theme=radical&background=0D1117&hide_border=true" alt="GitHub Streak" height="195" /></td>
 </tr></table>
 
