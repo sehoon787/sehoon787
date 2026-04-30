@@ -14,6 +14,14 @@ REPO_DIR="${1:-$HOME/sehoon787}"
 DATA_FILE="$(hostname -s)-cc.json"
 LOG_FILE="$(dirname "$0")/vibe-sync.log"
 
+if [ -d "$HOME/.nvm/versions/node" ]; then
+    NVM_BIN_DIR=$(find "$HOME/.nvm/versions/node" -maxdepth 2 -type d -name bin 2>/dev/null | sort -V | tail -n 1)
+    if [ -n "$NVM_BIN_DIR" ]; then
+        PATH="$NVM_BIN_DIR:$PATH"
+        export PATH
+    fi
+fi
+
 log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') $1" >> "$LOG_FILE"
 }
@@ -46,15 +54,24 @@ if ! git pull --rebase origin main > /dev/null 2>&1; then
 fi
 log "Pulled latest"
 
-# Collect ccusage data (no BOM on Mac/Linux by default)
-npx ccusage daily --json 2>/dev/null > "$DATA_FILE"
-FILE_SIZE=$(wc -c < "$DATA_FILE" | tr -d ' ')
+# Collect ccusage data into a temp file first so scheduler failures do not truncate the last good snapshot.
+TMP_DATA_FILE=$(mktemp)
+if ! npx ccusage daily --json 2>/dev/null > "$TMP_DATA_FILE"; then
+    rm -f "$TMP_DATA_FILE"
+    log "ERROR: ccusage collection failed"
+    exit 1
+fi
+
+FILE_SIZE=$(wc -c < "$TMP_DATA_FILE" | tr -d ' ')
 log "ccusage collected: $FILE_SIZE bytes"
 
 if [ "$FILE_SIZE" -lt 10 ]; then
+    rm -f "$TMP_DATA_FILE"
     log "WARNING: ccusage output too small, skipping push"
     exit 0
 fi
+
+mv "$TMP_DATA_FILE" "$DATA_FILE"
 
 # Collect Codex data (if available)
 CODEX_FILE="$(hostname -s)-codex-cc.json"
