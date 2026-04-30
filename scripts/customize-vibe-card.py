@@ -30,6 +30,7 @@ def customize_readme() -> None:
 
 def customize_svg() -> None:
     content = SVG_PATH.read_text(encoding="utf-8")
+    content = content.replace("🎸", "⚡")
     counts = [0]
     content = re.sub(r">4-6 ", lambda match: replace_model(match, counts), content)
     content = content.replace("translate(25, 220)", "translate(25, 245)")

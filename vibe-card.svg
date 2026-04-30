@@ -13,7 +13,7 @@
   <rect x="0.5" y="0.5" width="899" height="409" rx="4.5" fill="#0d1117" stroke="#30363d"/>
 
   <!-- Title -->
-  <text x="25" y="35" class="title">🎸 VibeDashboard</text>
+  <text x="25" y="35" class="title">⚡ VibeDashboard</text>
 
   <!-- Stats Row -->
   <g transform="translate(25, 60)">
