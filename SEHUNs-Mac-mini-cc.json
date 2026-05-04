@@ -1570,33 +1570,51 @@
     },
     {
       "date": "2026-05-04",
-      "inputTokens": 3220,
-      "outputTokens": 19437,
-      "cacheCreationTokens": 318019,
-      "cacheReadTokens": 7954463,
-      "totalTokens": 8295139,
-      "totalCost": 6.466875249999999,
+      "inputTokens": 16288,
+      "outputTokens": 395915,
+      "cacheCreationTokens": 3866977,
+      "cacheReadTokens": 117913125,
+      "totalTokens": 122192305,
+      "totalCost": 89.01262694999996,
       "modelsUsed": [
-        "claude-opus-4-6"
+        "claude-opus-4-6",
+        "claude-sonnet-4-6",
+        "claude-haiku-4-5-20251001"
       ],
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-4-6",
-          "inputTokens": 3220,
-          "outputTokens": 19437,
-          "cacheCreationTokens": 318019,
-          "cacheReadTokens": 7954463,
-          "cost": 6.466875249999999
+          "inputTokens": 5959,
+          "outputTokens": 377991,
+          "cacheCreationTokens": 3320356,
+          "cacheReadTokens": 106581113,
+          "cost": 83.52235149999997
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 10312,
+          "outputTokens": 17456,
+          "cacheCreationTokens": 485534,
+          "cacheReadTokens": 10824150,
+          "cost": 5.3607735000000005
+        },
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "inputTokens": 17,
+          "outputTokens": 468,
+          "cacheCreationTokens": 61087,
+          "cacheReadTokens": 507862,
+          "cost": 0.12950195000000003
         }
       ]
     }
   ],
   "totals": {
-    "inputTokens": 1464083,
-    "outputTokens": 4829403,
-    "cacheCreationTokens": 90197478,
-    "cacheReadTokens": 1736721717,
-    "totalCost": 1141.4686335,
-    "totalTokens": 1833212681
+    "inputTokens": 1477151,
+    "outputTokens": 5205881,
+    "cacheCreationTokens": 93746436,
+    "cacheReadTokens": 1846680379,
+    "totalCost": 1224.0143851999999,
+    "totalTokens": 1947109847
   }
 }
