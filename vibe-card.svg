@@ -27,11 +27,11 @@
     </g>
     <g transform="translate(320, 0)">
       <text class="stat-label">📅 Today</text>
-      <text y="22" class="stat-value-small">38.9M / $33.38</text>
+      <text y="22" class="stat-value-small">0 / $0.00</text>
     </g>
     <g transform="translate(510, 0)">
       <text class="stat-label">📊 This Week</text>
-      <text y="22" class="stat-value-small">959.7M / $701.26</text>
+      <text y="22" class="stat-value-small">832.1M / $604.49</text>
     </g>
     <g transform="translate(710, 0)">
       <text class="stat-label">📈 This Month</text>
@@ -103,5 +103,5 @@
       <text x="680" y="11" class="model-label">haiku-4.5 3% ($105.92)</text>
     </g>
   </g>
-  <text x="25" y="390" class="footer">Updated: 2026-05-05 21:00 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
+  <text x="25" y="390" class="footer">Updated: 2026-05-06 00:53 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
 </svg>
