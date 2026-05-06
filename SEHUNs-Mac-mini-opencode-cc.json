@@ -50,7 +50,7 @@
       "cacheCreationTokens": 8250304,
       "cacheReadTokens": 144485371,
       "totalTokens": 153545295,
-      "totalCost": 143.33998549999995,
+      "totalCost": 143.33998549999998,
       "modelsUsed": [
         "claude-opus-4-5-20251101"
       ]
@@ -74,7 +74,7 @@
       "cacheCreationTokens": 4438808,
       "cacheReadTokens": 50632152,
       "totalTokens": 55390956,
-      "totalCost": 60.99376599999999,
+      "totalCost": 60.99376599999998,
       "modelsUsed": [
         "claude-opus-4-5-20251101"
       ]
@@ -98,7 +98,7 @@
       "cacheCreationTokens": 5183771,
       "cacheReadTokens": 61367035,
       "totalTokens": 66988953,
-      "totalCost": 73.94476124999997,
+      "totalCost": 73.94476124999998,
       "modelsUsed": [
         "claude-opus-4-5-20251101"
       ]
