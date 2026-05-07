@@ -1663,33 +1663,78 @@
     },
     {
       "date": "2026-05-07",
-      "inputTokens": 8243,
-      "outputTokens": 140756,
-      "cacheCreationTokens": 813657,
-      "cacheReadTokens": 62011044,
-      "totalTokens": 62973700,
-      "totalCost": 39.65099325000001,
+      "inputTokens": 1170139,
+      "outputTokens": 335522,
+      "cacheCreationTokens": 2540159,
+      "cacheReadTokens": 96689730,
+      "totalTokens": 100735550,
+      "totalCost": 74.65343805000003,
       "modelsUsed": [
-        "claude-opus-4-6"
+        "claude-opus-4-6",
+        "gemini-2.5-flash",
+        "gpt-5.4",
+        "gpt-5.5",
+        "claude-sonnet-4-6",
+        "claude-haiku-4-5-20251001"
       ],
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-4-6",
-          "inputTokens": 8243,
-          "outputTokens": 140756,
-          "cacheCreationTokens": 813657,
-          "cacheReadTokens": 62011044,
-          "cost": 39.65099325000001
+          "inputTokens": 8634,
+          "outputTokens": 279032,
+          "cacheCreationTokens": 2055488,
+          "cacheReadTokens": 90061936,
+          "cost": 64.896738
+        },
+        {
+          "modelName": "gpt-5.5",
+          "inputTokens": 925808,
+          "outputTokens": 35096,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2660352,
+          "cost": 7.012096000000002
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 66,
+          "outputTokens": 10404,
+          "cacheCreationTokens": 309273,
+          "cacheReadTokens": 2091627,
+          "cost": 1.94351985
+        },
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "inputTokens": 195,
+          "outputTokens": 10456,
+          "cacheCreationTokens": 175398,
+          "cacheReadTokens": 1875815,
+          "cost": 0.45930399999999993
+        },
+        {
+          "modelName": "gpt-5.4",
+          "inputTokens": 119802,
+          "outputTokens": 500,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.30700500000000003
+        },
+        {
+          "modelName": "gemini-2.5-flash",
+          "inputTokens": 115634,
+          "outputTokens": 34,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.0347752
         }
       ]
     }
   ],
   "totals": {
-    "inputTokens": 1486390,
-    "outputTokens": 5648310,
-    "cacheCreationTokens": 97932800,
-    "cacheReadTokens": 1976858478,
-    "totalCost": 1326.0236823999999,
-    "totalTokens": 2081925978
+    "inputTokens": 2648286,
+    "outputTokens": 5843076,
+    "cacheCreationTokens": 99659302,
+    "cacheReadTokens": 2011537164,
+    "totalCost": 1361.0261271999998,
+    "totalTokens": 2119687828
   }
 }
