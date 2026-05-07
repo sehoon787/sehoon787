@@ -1663,12 +1663,12 @@
     },
     {
       "date": "2026-05-07",
-      "inputTokens": 1170139,
-      "outputTokens": 335522,
-      "cacheCreationTokens": 2540159,
-      "cacheReadTokens": 96689730,
-      "totalTokens": 100735550,
-      "totalCost": 74.65343805000003,
+      "inputTokens": 6243888,
+      "outputTokens": 702762,
+      "cacheCreationTokens": 4562364,
+      "cacheReadTokens": 169273124,
+      "totalTokens": 180782138,
+      "totalCost": 147.94951719999986,
       "modelsUsed": [
         "claude-opus-4-6",
         "gemini-2.5-flash",
@@ -1680,35 +1680,35 @@
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-4-6",
-          "inputTokens": 8634,
-          "outputTokens": 279032,
-          "cacheCreationTokens": 2055488,
-          "cacheReadTokens": 90061936,
-          "cost": 64.896738
+          "inputTokens": 8875,
+          "outputTokens": 345934,
+          "cacheCreationTokens": 2706270,
+          "cacheReadTokens": 112405851,
+          "cost": 81.80983799999993
         },
         {
           "modelName": "gpt-5.5",
-          "inputTokens": 925808,
-          "outputTokens": 35096,
+          "inputTokens": 5162359,
+          "outputTokens": 264403,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 2660352,
-          "cost": 7.012096000000002
+          "cacheReadTokens": 30551552,
+          "cost": 49.01966099999997
         },
         {
           "modelName": "claude-sonnet-4-6",
-          "inputTokens": 66,
-          "outputTokens": 10404,
-          "cacheCreationTokens": 309273,
-          "cacheReadTokens": 2091627,
-          "cost": 1.94351985
+          "inputTokens": 752903,
+          "outputTokens": 73343,
+          "cacheCreationTokens": 1524492,
+          "cacheReadTokens": 22397047,
+          "cost": 15.794813099999999
         },
         {
           "modelName": "claude-haiku-4-5-20251001",
-          "inputTokens": 195,
-          "outputTokens": 10456,
-          "cacheCreationTokens": 175398,
-          "cacheReadTokens": 1875815,
-          "cost": 0.45930399999999993
+          "inputTokens": 84315,
+          "outputTokens": 18548,
+          "cacheCreationTokens": 331602,
+          "cacheReadTokens": 3918674,
+          "cost": 0.9834248999999997
         },
         {
           "modelName": "gpt-5.4",
@@ -1730,11 +1730,11 @@
     }
   ],
   "totals": {
-    "inputTokens": 2648286,
-    "outputTokens": 5843076,
-    "cacheCreationTokens": 99659302,
-    "cacheReadTokens": 2011537164,
-    "totalCost": 1361.0261271999998,
-    "totalTokens": 2119687828
+    "inputTokens": 7722035,
+    "outputTokens": 6210316,
+    "cacheCreationTokens": 101681507,
+    "cacheReadTokens": 2084120558,
+    "totalCost": 1434.3222063499998,
+    "totalTokens": 2199734416
   }
 }
