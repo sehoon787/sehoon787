@@ -23,19 +23,19 @@
     </g>
     <g transform="translate(150, 0)">
       <text class="stat-label">Total Cost</text>
-      <text y="22" class="stat-value">$3575.08</text>
+      <text y="22" class="stat-value">$3580.25</text>
     </g>
     <g transform="translate(320, 0)">
       <text class="stat-label">📅 Today</text>
-      <text y="22" class="stat-value-small">40.5M / $31.28</text>
+      <text y="22" class="stat-value-small">48.2M / $36.45</text>
     </g>
     <g transform="translate(510, 0)">
       <text class="stat-label">📊 This Week</text>
-      <text y="22" class="stat-value-small">664M / $518.24</text>
+      <text y="22" class="stat-value-small">671.8M / $523.41</text>
     </g>
     <g transform="translate(710, 0)">
       <text class="stat-label">📈 This Month</text>
-      <text y="22" class="stat-value-small">4.1B / $2709.01</text>
+      <text y="22" class="stat-value-small">4.1B / $2714.17</text>
     </g>
   </g>
   <!-- Weekly Usage Chart -->
@@ -71,7 +71,7 @@
     <text x="689.5" y="95" text-anchor="middle" class="model-label">05/06</text>
     <rect x="720" y="46.133820474024844" width="49" height="33.866179525975156" rx="3" fill="#58a6ff"/>
     <text x="744.5" y="95" text-anchor="middle" class="model-label">05/07</text>
-    <rect x="775" y="72.42174028351685" width="49" height="7.578259716483146" rx="3" fill="#58a6ff"/>
+    <rect x="775" y="70.97302246573878" width="49" height="9.026977534261217" rx="3" fill="#58a6ff"/>
     <text x="799.5" y="95" text-anchor="middle" class="model-label">05/08</text>
   </g>
   <!-- Model Breakdown -->
@@ -80,7 +80,7 @@
     <g transform="translate(0, 18)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
       <rect x="0" y="2" width="448.90000000000003" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">opus-4.6 67% ($2389.83)</text>
+      <text x="680" y="11" class="model-label">opus-4.6 67% ($2395.00)</text>
     </g>
     <g transform="translate(0, 38)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
@@ -103,5 +103,5 @@
       <text x="680" y="11" class="model-label">haiku-4.5 3% ($107.00)</text>
     </g>
   </g>
-  <text x="25" y="390" class="footer">Updated: 2026-05-08 12:40 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
+  <text x="25" y="390" class="footer">Updated: 2026-05-08 15:00 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
 </svg>
