@@ -1,4 +1,4 @@
-[@ccusage/opencode] ℹ Loaded pricing for 2704 models
+[@ccusage/opencode] ℹ Loaded pricing for 2705 models
 {
   "daily": [
     {
@@ -62,7 +62,7 @@
       "cacheCreationTokens": 3906209,
       "cacheReadTokens": 50245095,
       "totalTokens": 54431926,
-      "totalCost": 56.48036375000003,
+      "totalCost": 56.48036375000002,
       "modelsUsed": [
         "claude-opus-4-5-20251101"
       ]
