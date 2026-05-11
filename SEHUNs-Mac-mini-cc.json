@@ -1829,14 +1829,36 @@
           "cost": 4.694700999999999
         }
       ]
+    },
+    {
+      "date": "2026-05-11",
+      "inputTokens": 324531,
+      "outputTokens": 9424,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 615424,
+      "totalTokens": 949379,
+      "totalCost": 2.213087,
+      "modelsUsed": [
+        "gpt-5.5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.5",
+          "inputTokens": 324531,
+          "outputTokens": 9424,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 615424,
+          "cost": 2.213087
+        }
+      ]
     }
   ],
   "totals": {
-    "inputTokens": 8900175,
-    "outputTokens": 6392400,
+    "inputTokens": 9224706,
+    "outputTokens": 6401824,
     "cacheCreationTokens": 103623471,
-    "cacheReadTokens": 2133500704,
-    "totalCost": 1480.6849579499997,
-    "totalTokens": 2252416750
+    "cacheReadTokens": 2134116128,
+    "totalCost": 1482.8980449499998,
+    "totalTokens": 2253366129
   }
 }
