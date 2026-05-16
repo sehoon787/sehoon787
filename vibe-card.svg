@@ -19,57 +19,57 @@
   <g transform="translate(25, 60)">
     <g>
       <text class="stat-label">Total Tokens</text>
-      <text y="22" class="stat-value">7.9B</text>
+      <text y="22" class="stat-value">8B</text>
     </g>
     <g transform="translate(150, 0)">
       <text class="stat-label">Total Cost</text>
-      <text y="22" class="stat-value">$4575.68</text>
+      <text y="22" class="stat-value">$4584.93</text>
     </g>
     <g transform="translate(320, 0)">
       <text class="stat-label">📅 Today</text>
-      <text y="22" class="stat-value-small">830.5M / $635.91</text>
+      <text y="22" class="stat-value-small">842.9M / $645.16</text>
     </g>
     <g transform="translate(510, 0)">
       <text class="stat-label">📊 This Week</text>
-      <text y="22" class="stat-value-small">1.3B / $1072.58</text>
+      <text y="22" class="stat-value-small">1.3B / $1081.83</text>
     </g>
     <g transform="translate(710, 0)">
       <text class="stat-label">📈 This Month</text>
-      <text y="22" class="stat-value-small">4.9B / $3487.68</text>
+      <text y="22" class="stat-value-small">4.9B / $3496.92</text>
     </g>
   </g>
   <!-- Weekly Usage Chart -->
   <g transform="translate(25, 105)">
     <rect x="0" y="0" width="850" height="100" rx="4" fill="#161b22"/>
-    <text x="45" y="15" text-anchor="end" class="model-label">830.5M</text>
-    <text x="45" y="52.5" text-anchor="end" class="model-label">415.3M</text>
+    <text x="45" y="15" text-anchor="end" class="model-label">842.9M</text>
+    <text x="45" y="52.5" text-anchor="end" class="model-label">421.5M</text>
     <text x="45" y="90" text-anchor="end" class="model-label">0</text>
     <line x1="50" y1="5" x2="50" y2="80" stroke="#30363d" stroke-width="1"/>
-    <rect x="60" y="76.474853523488" width="49" height="3.5251464765119995" rx="3" fill="#58a6ff"/>
+    <rect x="60" y="76.52687623848102" width="49" height="3.4731237615189725" rx="3" fill="#58a6ff"/>
     <text x="84.5" y="95" text-anchor="middle" class="model-label">05/03</text>
-    <rect x="115" y="65.5194220194285" width="49" height="14.480577980571502" rx="3" fill="#58a6ff"/>
+    <rect x="115" y="65.73312065187879" width="49" height="14.26687934812121" rx="3" fill="#58a6ff"/>
     <text x="139.5" y="95" text-anchor="middle" class="model-label">05/04</text>
-    <rect x="170" y="76.4904626120388" width="49" height="3.509537387961206" rx="3" fill="#58a6ff"/>
+    <rect x="170" y="76.5422549742875" width="49" height="3.457745025712495" rx="3" fill="#58a6ff"/>
     <text x="194.5" y="95" text-anchor="middle" class="model-label">05/05</text>
-    <rect x="225" y="77.69634656527903" width="49" height="2.3036534347209687" rx="3" fill="#58a6ff"/>
+    <rect x="225" y="77.7303429699322" width="49" height="2.269657030067799" rx="3" fill="#58a6ff"/>
     <text x="249.5" y="95" text-anchor="middle" class="model-label">05/06</text>
-    <rect x="280" y="63.674227922869605" width="49" height="16.325772077130395" rx="3" fill="#58a6ff"/>
+    <rect x="280" y="63.91515719870782" width="49" height="16.08484280129218" rx="3" fill="#58a6ff"/>
     <text x="304.5" y="95" text-anchor="middle" class="model-label">05/07</text>
-    <rect x="335" y="75.6483908184361" width="49" height="4.351609181563909" rx="3" fill="#58a6ff"/>
+    <rect x="335" y="75.71261014257536" width="49" height="4.287389857424636" rx="3" fill="#58a6ff"/>
     <text x="359.5" y="95" text-anchor="middle" class="model-label">05/08</text>
     <rect x="390" y="78" width="49" height="2" rx="3" fill="#58a6ff"/>
     <text x="414.5" y="95" text-anchor="middle" class="model-label">05/09</text>
     <rect x="445" y="78" width="49" height="2" rx="3" fill="#58a6ff"/>
     <text x="469.5" y="95" text-anchor="middle" class="model-label">05/10</text>
-    <rect x="500" y="74.94997481850028" width="49" height="5.050025181499716" rx="3" fill="#58a6ff"/>
+    <rect x="500" y="75.0245010892454" width="49" height="4.975498910754588" rx="3" fill="#58a6ff"/>
     <text x="524.5" y="95" text-anchor="middle" class="model-label">05/11</text>
-    <rect x="555" y="70.24133467020101" width="49" height="9.758665329798994" rx="3" fill="#58a6ff"/>
+    <rect x="555" y="70.38534918663233" width="49" height="9.614650813367671" rx="3" fill="#58a6ff"/>
     <text x="579.5" y="95" text-anchor="middle" class="model-label">05/12</text>
-    <rect x="610" y="74.94617626318681" width="49" height="5.053823736813186" rx="3" fill="#58a6ff"/>
+    <rect x="610" y="75.02075859150622" width="49" height="4.9792414084937775" rx="3" fill="#58a6ff"/>
     <text x="634.5" y="95" text-anchor="middle" class="model-label">05/13</text>
-    <rect x="665" y="66.51889377915211" width="49" height="13.481106220847883" rx="3" fill="#58a6ff"/>
+    <rect x="665" y="66.71784260337569" width="49" height="13.28215739662432" rx="3" fill="#58a6ff"/>
     <text x="689.5" y="95" text-anchor="middle" class="model-label">05/14</text>
-    <rect x="720" y="70.33322398360137" width="49" height="9.666776016398627" rx="3" fill="#58a6ff"/>
+    <rect x="720" y="70.47588243395323" width="49" height="9.524117566046764" rx="3" fill="#58a6ff"/>
     <text x="744.5" y="95" text-anchor="middle" class="model-label">05/15</text>
     <rect x="775" y="5" width="49" height="75" rx="3" fill="#58a6ff"/>
     <text x="799.5" y="95" text-anchor="middle" class="model-label">05/16</text>
@@ -80,7 +80,7 @@
     <g transform="translate(0, 18)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
       <rect x="0" y="2" width="408.7" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">opus-4.6 61% ($2780.65)</text>
+      <text x="680" y="11" class="model-label">opus-4.6 61% ($2789.90)</text>
     </g>
     <g transform="translate(0, 38)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
@@ -103,5 +103,5 @@
       <text x="680" y="11" class="model-label">gpt-5.5 (Codex) 3% ($118.48)</text>
     </g>
   </g>
-  <text x="25" y="390" class="footer">Updated: 2026-05-16 12:30 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
+  <text x="25" y="390" class="footer">Updated: 2026-05-16 15:00 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
 </svg>
