@@ -64,7 +64,7 @@
       "outputTokens": 147908,
       "reasoningOutputTokens": 39553,
       "totalTokens": 40837412,
-      "costUSD": 38.027598,
+      "costUSD": 10.6724695,
       "models": {
         "gpt-5.5": {
           "inputTokens": 39931278,
@@ -91,6 +91,6 @@
     "outputTokens": 261691,
     "reasoningOutputTokens": 70020,
     "totalTokens": 65521279,
-    "costUSD": 56.004897
+    "costUSD": 28.6497685
   }
 }
