@@ -2265,12 +2265,12 @@
     },
     {
       "date": "2026-05-20",
-      "inputTokens": 3935069,
-      "outputTokens": 205941,
+      "inputTokens": 7768794,
+      "outputTokens": 490393,
       "cacheCreationTokens": 0,
-      "cacheReadTokens": 40336384,
-      "totalTokens": 44477394,
-      "totalCost": 43.109265799999925,
+      "cacheReadTokens": 84923904,
+      "totalTokens": 93183091,
+      "totalCost": 89.90266279999987,
       "modelsUsed": [
         "gpt-5.5",
         "gpt-5.4",
@@ -2279,19 +2279,19 @@
       "modelBreakdowns": [
         {
           "modelName": "gpt-5.5",
-          "inputTokens": 3647060,
-          "outputTokens": 172639,
+          "inputTokens": 7114169,
+          "outputTokens": 412219,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 33742336,
-          "cost": 40.28563799999994
+          "cacheReadTokens": 71878144,
+          "cost": 83.87648699999983
         },
         {
           "modelName": "gpt-5.4",
-          "inputTokens": 286457,
-          "outputTokens": 30967,
+          "inputTokens": 653073,
+          "outputTokens": 75839,
           "cacheCreationTokens": 0,
-          "cacheReadTokens": 6495744,
-          "cost": 2.804583500000001
+          "cacheReadTokens": 12947456,
+          "cost": 6.007131499999998
         },
         {
           "modelName": "gpt-5.4-mini-2026-03-17",
@@ -2305,11 +2305,11 @@
     }
   ],
   "totals": {
-    "inputTokens": 83228140,
-    "outputTokens": 15395418,
+    "inputTokens": 87061865,
+    "outputTokens": 15679870,
     "cacheCreationTokens": 180083265,
-    "cacheReadTokens": 3967767090,
-    "totalCost": 3164.080558600002,
-    "totalTokens": 4246473913
+    "cacheReadTokens": 4012354610,
+    "totalCost": 3210.873955600002,
+    "totalTokens": 4295179610
   }
 }
