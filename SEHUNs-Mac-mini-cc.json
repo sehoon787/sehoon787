@@ -2528,12 +2528,12 @@
     },
     {
       "date": "2026-05-26",
-      "inputTokens": 1245477,
-      "outputTokens": 1074627,
-      "cacheCreationTokens": 9598709,
-      "cacheReadTokens": 306648642,
-      "totalTokens": 318567455,
-      "totalCost": 220.3927515500001,
+      "inputTokens": 1246882,
+      "outputTokens": 1445299,
+      "cacheCreationTokens": 13668998,
+      "cacheReadTokens": 395709118,
+      "totalTokens": 412070297,
+      "totalCost": 294.1447013999998,
       "modelsUsed": [
         "claude-opus-4-6",
         "claude-opus-4-7",
@@ -2545,19 +2545,19 @@
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-4-6",
-          "inputTokens": 2140,
-          "outputTokens": 688536,
-          "cacheCreationTokens": 5508363,
-          "cacheReadTokens": 182944013,
-          "cost": 143.12337525000004
+          "inputTokens": 3213,
+          "outputTokens": 1032848,
+          "cacheCreationTokens": 8603473,
+          "cacheReadTokens": 261660413,
+          "cost": 210.4391777499992
         },
         {
           "modelName": "claude-sonnet-4-6",
-          "inputTokens": 24050,
-          "outputTokens": 155326,
-          "cacheCreationTokens": 3386948,
-          "cacheReadTokens": 73987565,
-          "cost": 37.299364499999996
+          "inputTokens": 24302,
+          "outputTokens": 180583,
+          "cacheCreationTokens": 4171280,
+          "cacheReadTokens": 83171215,
+          "cost": 43.37531550000001
         },
         {
           "modelName": "claude-opus-4-7",
@@ -2577,11 +2577,11 @@
         },
         {
           "modelName": "claude-haiku-4-5-20251001",
-          "inputTokens": 84,
-          "outputTokens": 1058,
-          "cacheCreationTokens": 207292,
-          "cacheReadTokens": 1158073,
-          "cost": 0.3802963000000001
+          "inputTokens": 164,
+          "outputTokens": 2161,
+          "cacheCreationTokens": 398139,
+          "cacheReadTokens": 2318499,
+          "cost": 0.7404926500000004
         },
         {
           "modelName": "gpt-5.4-mini-2026-03-17",
@@ -2595,11 +2595,11 @@
     }
   ],
   "totals": {
-    "inputTokens": 123560260,
-    "outputTokens": 18862019,
-    "cacheCreationTokens": 196654944,
-    "cacheReadTokens": 4799225578,
-    "totalCost": 3926.458186950002,
-    "totalTokens": 5138302801
+    "inputTokens": 123561665,
+    "outputTokens": 19232691,
+    "cacheCreationTokens": 200725233,
+    "cacheReadTokens": 4888286054,
+    "totalCost": 4000.210136800002,
+    "totalTokens": 5231805643
   }
 }
