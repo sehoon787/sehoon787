@@ -3181,51 +3181,60 @@
     },
     {
       "date": "2026-06-12",
-      "inputTokens": 19374,
-      "outputTokens": 456914,
-      "cacheCreationTokens": 6347795,
-      "cacheReadTokens": 345931272,
-      "totalTokens": 352755355,
-      "totalCost": 309.4763659999993,
+      "inputTokens": 27883,
+      "outputTokens": 875559,
+      "cacheCreationTokens": 11876494,
+      "cacheReadTokens": 691633754,
+      "totalTokens": 704413690,
+      "totalCost": 577.6040145,
       "modelsUsed": [
         "claude-fable-5",
         "claude-opus-4-7",
-        "claude-sonnet-4-6"
+        "claude-sonnet-4-6",
+        "claude-haiku-4-5-20251001"
       ],
       "modelBreakdowns": [
         {
           "modelName": "claude-fable-5",
-          "inputTokens": 964,
-          "outputTokens": 301382,
-          "cacheCreationTokens": 3673529,
-          "cacheReadTokens": 138661703,
-          "cost": 199.65955549999998
+          "inputTokens": 1566,
+          "outputTokens": 530193,
+          "cacheCreationTokens": 4581844,
+          "cacheReadTokens": 249032313,
+          "cost": 332.8306730000004
         },
         {
           "modelName": "claude-opus-4-7",
-          "inputTokens": 15686,
-          "outputTokens": 81056,
-          "cacheCreationTokens": 1028439,
-          "cacheReadTokens": 159031014,
-          "cost": 88.04808075000001
+          "inputTokens": 22830,
+          "outputTokens": 170332,
+          "cacheCreationTokens": 3956210,
+          "cacheReadTokens": 343589814,
+          "cost": 200.8936695000001
         },
         {
           "modelName": "claude-sonnet-4-6",
-          "inputTokens": 2724,
-          "outputTokens": 74476,
-          "cacheCreationTokens": 1645827,
-          "cacheReadTokens": 48238555,
-          "cost": 21.76872975
+          "inputTokens": 3337,
+          "outputTokens": 171323,
+          "cacheCreationTokens": 3167359,
+          "cacheReadTokens": 96442504,
+          "cost": 43.39020345000003
+        },
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "inputTokens": 150,
+          "outputTokens": 3711,
+          "cacheCreationTokens": 171081,
+          "cacheReadTokens": 2569123,
+          "cost": 0.4894685500000001
         }
       ]
     }
   ],
   "totals": {
-    "inputTokens": 123748181,
-    "outputTokens": 29724224,
-    "cacheCreationTokens": 291794970,
-    "cacheReadTokens": 7298166283,
-    "totalCost": 6178.400074849999,
-    "totalTokens": 7743433658
+    "inputTokens": 123756690,
+    "outputTokens": 30142869,
+    "cacheCreationTokens": 297323669,
+    "cacheReadTokens": 7643868765,
+    "totalCost": 6446.52772335,
+    "totalTokens": 8095091993
   }
 }
