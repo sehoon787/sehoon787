@@ -1872,33 +1872,33 @@
     },
     {
       "date": "2026-07-08",
-      "inputTokens": 320317,
-      "outputTokens": 572079,
-      "cacheCreationTokens": 5736370,
-      "cacheReadTokens": 211978454,
-      "totalTokens": 218607220,
-      "totalCost": 151.79207515000004,
+      "inputTokens": 355921,
+      "outputTokens": 792747,
+      "cacheCreationTokens": 8023372,
+      "cacheReadTokens": 334917660,
+      "totalTokens": 344089700,
+      "totalCost": 233.2501606500001,
       "modelsUsed": [
+        "claude-opus-4-6",
         "claude-opus-4-8",
-        "claude-sonnet-5",
-        "claude-opus-4-6"
+        "claude-sonnet-5"
       ],
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-4-8",
-          "inputTokens": 319613,
-          "outputTokens": 457861,
-          "cacheCreationTokens": 4812010,
-          "cacheReadTokens": 157864944,
-          "cost": 122.05212449999989
+          "inputTokens": 354617,
+          "outputTokens": 536343,
+          "cacheCreationTokens": 6006540,
+          "cacheReadTokens": 206403098,
+          "cost": 155.92408400000002
         },
         {
           "modelName": "claude-opus-4-6",
-          "inputTokens": 540,
-          "outputTokens": 61830,
-          "cacheCreationTokens": 347161,
-          "cacheReadTokens": 44106123,
-          "cost": 25.77126775000001
+          "inputTokens": 1140,
+          "outputTokens": 204016,
+          "cacheCreationTokens": 1439633,
+          "cacheReadTokens": 118507175,
+          "cost": 73.3573937500001
         },
         {
           "modelName": "claude-sonnet-5",
@@ -1912,11 +1912,11 @@
     }
   ],
   "totals": {
-    "inputTokens": 32553785,
-    "outputTokens": 35026685,
-    "cacheCreationTokens": 445322484,
-    "cacheReadTokens": 14466841073,
-    "totalCost": 11096.61581024999,
-    "totalTokens": 14979744027
+    "inputTokens": 32589389,
+    "outputTokens": 35247353,
+    "cacheCreationTokens": 447609486,
+    "cacheReadTokens": 14589780279,
+    "totalCost": 11178.07389574999,
+    "totalTokens": 15105226507
   }
 }
