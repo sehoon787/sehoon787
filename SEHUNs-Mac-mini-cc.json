@@ -2099,33 +2099,51 @@
     },
     {
       "date": "2026-07-13",
-      "inputTokens": 154966,
-      "outputTokens": 102444,
-      "cacheCreationTokens": 754073,
-      "cacheReadTokens": 204606074,
-      "totalTokens": 205617557,
-      "totalCost": 110.35192324999998,
+      "inputTokens": 279309,
+      "outputTokens": 306295,
+      "cacheCreationTokens": 4195040,
+      "cacheReadTokens": 267053261,
+      "totalTokens": 271833905,
+      "totalCost": 159.4622640999996,
       "modelsUsed": [
-        "claude-opus-4-8"
+        "claude-opus-4-8",
+        "claude-sonnet-4-6",
+        "claude-opus-4-6"
       ],
       "modelBreakdowns": [
         {
           "modelName": "claude-opus-4-8",
-          "inputTokens": 154966,
-          "outputTokens": 102444,
-          "cacheCreationTokens": 754073,
-          "cacheReadTokens": 204606074,
-          "cost": 110.35192324999998
+          "inputTokens": 272376,
+          "outputTokens": 243380,
+          "cacheCreationTokens": 2869440,
+          "cacheReadTokens": 235917598,
+          "cost": 143.3391789999999
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 6884,
+          "outputTokens": 61603,
+          "cacheCreationTokens": 1216084,
+          "cacheReadTokens": 28336392,
+          "cost": 14.005929599999998
+        },
+        {
+          "modelName": "claude-opus-4-6",
+          "inputTokens": 49,
+          "outputTokens": 1312,
+          "cacheCreationTokens": 109516,
+          "cacheReadTokens": 2799271,
+          "cost": 2.1171554999999995
         }
       ]
     }
   ],
   "totals": {
-    "inputTokens": 35167767,
-    "outputTokens": 38966718,
-    "cacheCreationTokens": 493989770,
-    "cacheReadTokens": 16007843559,
-    "totalCost": 12256.156831999991,
-    "totalTokens": 16575967814
+    "inputTokens": 35292110,
+    "outputTokens": 39170569,
+    "cacheCreationTokens": 497430737,
+    "cacheReadTokens": 16070290746,
+    "totalCost": 12305.26717284999,
+    "totalTokens": 16642184162
   }
 }
