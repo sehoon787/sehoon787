@@ -19,23 +19,23 @@
   <g transform="translate(25, 60)">
     <g>
       <text class="stat-label">Total Tokens</text>
-      <text y="22" class="stat-value">21.6B</text>
+      <text y="22" class="stat-value">22.2B</text>
     </g>
     <g transform="translate(150, 0)">
       <text class="stat-label">Total Cost</text>
-      <text y="22" class="stat-value">$14784.62</text>
+      <text y="22" class="stat-value">$15098.54</text>
     </g>
     <g transform="translate(320, 0)">
       <text class="stat-label">📅 Today</text>
-      <text y="22" class="stat-value-small">4.8M / $7.94</text>
+      <text y="22" class="stat-value-small">276.7M / $167.40</text>
     </g>
     <g transform="translate(510, 0)">
       <text class="stat-label">📊 This Week</text>
-      <text y="22" class="stat-value-small">2.1B / $1787.70</text>
+      <text y="22" class="stat-value-small">2.6B / $2101.61</text>
     </g>
     <g transform="translate(710, 0)">
       <text class="stat-label">📈 This Month</text>
-      <text y="22" class="stat-value-small">13.7B / $9905.69</text>
+      <text y="22" class="stat-value-small">14.3B / $10219.60</text>
     </g>
   </g>
   <!-- Weekly Usage Chart -->
@@ -69,9 +69,9 @@
     <text x="634.5" y="95" text-anchor="middle" class="model-label">07/10</text>
     <rect x="665" y="75.97804044698967" width="49" height="4.021959553010336" rx="3" fill="#58a6ff"/>
     <text x="689.5" y="95" text-anchor="middle" class="model-label">07/11</text>
-    <rect x="720" y="71.71626706111793" width="49" height="8.283732938882068" rx="3" fill="#58a6ff"/>
+    <rect x="720" y="62.962854282745596" width="49" height="17.037145717254404" rx="3" fill="#58a6ff"/>
     <text x="744.5" y="95" text-anchor="middle" class="model-label">07/12</text>
-    <rect x="775" y="78" width="49" height="2" rx="3" fill="#58a6ff"/>
+    <rect x="775" y="71.65783144775227" width="49" height="8.342168552247722" rx="3" fill="#58a6ff"/>
     <text x="799.5" y="95" text-anchor="middle" class="model-label">07/13</text>
   </g>
   <!-- Model Breakdown -->
@@ -79,23 +79,23 @@
     <text class="section-title">🤖 Model Usage</text>
     <g transform="translate(0, 18)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
-      <rect x="0" y="2" width="321.59999999999997" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">4-8 48% ($7038.61)</text>
+      <rect x="0" y="2" width="328.3" height="10" rx="3" fill="#58a6ff"/>
+      <text x="680" y="11" class="model-label">4-8 49% ($7323.69)</text>
     </g>
     <g transform="translate(0, 38)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
       <rect x="0" y="2" width="120.6" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">opus-4.6 18% ($2675.49)</text>
+      <text x="680" y="11" class="model-label">opus-4.6 18% ($2678.72)</text>
     </g>
     <g transform="translate(0, 58)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
-      <rect x="0" y="2" width="107.2" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">fable-5 16% ($2309.21)</text>
+      <rect x="0" y="2" width="100.5" height="10" rx="3" fill="#58a6ff"/>
+      <text x="680" y="11" class="model-label">fable-5 15% ($2309.21)</text>
     </g>
     <g transform="translate(0, 78)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
       <rect x="0" y="2" width="46.900000000000006" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">sonnet-4.6 7% ($1060.23)</text>
+      <text x="680" y="11" class="model-label">sonnet-4.6 7% ($1075.68)</text>
     </g>
     <g transform="translate(0, 98)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
@@ -103,5 +103,5 @@
       <text x="680" y="11" class="model-label">4-7 4% ($626.69)</text>
     </g>
   </g>
-  <text x="25" y="390" class="footer">Updated: 2026-07-13 00:47 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
+  <text x="25" y="390" class="footer">Updated: 2026-07-13 03:41 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
 </svg>
