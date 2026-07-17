@@ -27,15 +27,15 @@
     </g>
     <g transform="translate(320, 0)">
       <text class="stat-label">📅 Today</text>
-      <text y="22" class="stat-value-small">2.7B / $850.33</text>
+      <text y="22" class="stat-value-small">826.3K / $2.08</text>
     </g>
     <g transform="translate(510, 0)">
       <text class="stat-label">📊 This Week</text>
-      <text y="22" class="stat-value-small">6.2B / $2572.27</text>
+      <text y="22" class="stat-value-small">5.8B / $2312.04</text>
     </g>
     <g transform="translate(710, 0)">
       <text class="stat-label">📈 This Month</text>
-      <text y="22" class="stat-value-small">16B / $9745.90</text>
+      <text y="22" class="stat-value-small">15.5B / $9413.78</text>
     </g>
   </g>
   <!-- Weekly Usage Chart -->
@@ -103,5 +103,5 @@
       <text x="680" y="11" class="model-label">sonnet-4.6 6% ($961.43)</text>
     </g>
   </g>
-  <text x="25" y="390" class="footer">Updated: 2026-07-16 21:00 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
+  <text x="25" y="390" class="footer">Updated: 2026-07-17 00:45 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
 </svg>
