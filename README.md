@@ -8,6 +8,7 @@
 [![Vibe Dashboard](./vibe-card.svg)](https://aliencoder.tistory.com/)
 <!-- VIBE-DASHBOARD:END -->
 
+<!--
 ---
 
 <table align="center"><tr>
@@ -16,3 +17,4 @@
 </tr></table>
 
 <p align="right"><sub>v2.0.0</sub></p>
+ -->
