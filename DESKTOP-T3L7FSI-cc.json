@@ -290,33 +290,33 @@
     },
     {
       "date": "2026-09-11",
-      "inputTokens": 60,
-      "outputTokens": 2316,
-      "cacheCreationTokens": 749871,
-      "cacheReadTokens": 1495430,
-      "totalTokens": 2247677,
-      "totalCost": 9.863645,
+      "inputTokens": 1103,
+      "outputTokens": 27424,
+      "cacheCreationTokens": 2318784,
+      "cacheReadTokens": 14605803,
+      "totalTokens": 16953114,
+      "totalCost": 34.018480749999995,
       "modelsUsed": [
         "claude-fable-5-1"
       ],
       "modelBreakdowns": [
         {
           "modelName": "claude-fable-5-1",
-          "inputTokens": 60,
-          "outputTokens": 2316,
-          "cacheCreationTokens": 749871,
-          "cacheReadTokens": 1495430,
-          "cost": 9.863645
+          "inputTokens": 1103,
+          "outputTokens": 27424,
+          "cacheCreationTokens": 2318784,
+          "cacheReadTokens": 14605803,
+          "cost": 34.018480749999995
         }
       ]
     }
   ],
   "totals": {
-    "inputTokens": 19861,
-    "outputTokens": 890828,
-    "cacheCreationTokens": 23679050,
-    "cacheReadTokens": 368925104,
-    "totalCost": 296.01829640000017,
-    "totalTokens": 393514843
+    "inputTokens": 20904,
+    "outputTokens": 915936,
+    "cacheCreationTokens": 25247963,
+    "cacheReadTokens": 382035477,
+    "totalCost": 320.17313215000013,
+    "totalTokens": 408220280
   }
 }
