@@ -2812,7 +2812,7 @@
       "cacheCreationTokens": 20354128,
       "cacheReadTokens": 502589359,
       "totalTokens": 523958703,
-      "totalCost": 404.1598313999995,
+      "totalCost": 404.1598313999994,
       "modelsUsed": [
         "claude-opus-5",
         "claude-fable-5-1",
@@ -2861,10 +2861,10 @@
       "cacheCreationTokens": 15452635,
       "cacheReadTokens": 631956843,
       "totalTokens": 648270516,
-      "totalCost": 356.2370790499994,
+      "totalCost": 356.23707904999947,
       "modelsUsed": [
-        "claude-fable-5-1",
         "claude-opus-5",
+        "claude-fable-5-1",
         "claude-sonnet-5"
       ],
       "modelBreakdowns": [
@@ -2893,14 +2893,45 @@
           "cost": 53.7563325
         }
       ]
+    },
+    {
+      "date": "2026-09-22",
+      "inputTokens": 526,
+      "outputTokens": 128313,
+      "cacheCreationTokens": 1591072,
+      "cacheReadTokens": 66329815,
+      "totalTokens": 68049726,
+      "totalCost": 48.346197999999994,
+      "modelsUsed": [
+        "claude-fable-5-1",
+        "claude-opus-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5",
+          "inputTokens": 288,
+          "outputTokens": 32070,
+          "cacheCreationTokens": 596291,
+          "cacheReadTokens": 39937772,
+          "cost": 24.498894749999987
+        },
+        {
+          "modelName": "claude-fable-5-1",
+          "inputTokens": 238,
+          "outputTokens": 96243,
+          "cacheCreationTokens": 994781,
+          "cacheReadTokens": 26392043,
+          "cost": 23.84730325000001
+        }
+      ]
     }
   ],
   "totals": {
-    "inputTokens": 634483,
-    "outputTokens": 28061059,
-    "cacheCreationTokens": 519655332,
-    "cacheReadTokens": 17069524427,
-    "totalCost": 14294.657979499998,
-    "totalTokens": 17617875301
+    "inputTokens": 635009,
+    "outputTokens": 28189372,
+    "cacheCreationTokens": 521246404,
+    "cacheReadTokens": 17135854242,
+    "totalCost": 14343.004177499997,
+    "totalTokens": 17685925027
   }
 }
