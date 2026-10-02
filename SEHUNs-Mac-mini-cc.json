@@ -2812,7 +2812,7 @@
       "cacheCreationTokens": 20354128,
       "cacheReadTokens": 502589359,
       "totalTokens": 523958703,
-      "totalCost": 404.1598313999995,
+      "totalCost": 404.1598313999994,
       "modelsUsed": [
         "claude-opus-5",
         "claude-fable-5-1",
@@ -2861,10 +2861,10 @@
       "cacheCreationTokens": 15452635,
       "cacheReadTokens": 631956843,
       "totalTokens": 648270516,
-      "totalCost": 356.23707904999947,
+      "totalCost": 356.2370790499994,
       "modelsUsed": [
-        "claude-opus-5",
         "claude-fable-5-1",
+        "claude-opus-5",
         "claude-sonnet-5"
       ],
       "modelBreakdowns": [
@@ -3320,14 +3320,45 @@
           "cost": 2.575594599999999
         }
       ]
+    },
+    {
+      "date": "2026-10-03",
+      "inputTokens": 128,
+      "outputTokens": 127993,
+      "cacheCreationTokens": 959114,
+      "cacheReadTokens": 38651620,
+      "totalTokens": 39738855,
+      "totalCost": 21.954602799999996,
+      "modelsUsed": [
+        "claude-fable-5-1",
+        "claude-opus-5-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-fable-5-1",
+          "inputTokens": 90,
+          "outputTokens": 125098,
+          "cacheCreationTokens": 233369,
+          "cacheReadTokens": 27291786,
+          "cost": 15.995858999999998
+        },
+        {
+          "modelName": "claude-opus-5-5",
+          "inputTokens": 38,
+          "outputTokens": 2895,
+          "cacheCreationTokens": 725745,
+          "cacheReadTokens": 11359834,
+          "cost": 5.9587438
+        }
+      ]
     }
   ],
   "totals": {
-    "inputTokens": 686036,
-    "outputTokens": 34850479,
-    "cacheCreationTokens": 624672054,
-    "cacheReadTokens": 20301369619,
-    "totalCost": 16296.193700149995,
-    "totalTokens": 20961578188
+    "inputTokens": 686164,
+    "outputTokens": 34978472,
+    "cacheCreationTokens": 625631168,
+    "cacheReadTokens": 20340021239,
+    "totalCost": 16318.148302949996,
+    "totalTokens": 21001317043
   }
 }
