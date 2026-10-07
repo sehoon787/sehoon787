@@ -23,19 +23,19 @@
     </g>
     <g transform="translate(150, 0)">
       <text class="stat-label">Total Cost</text>
-      <text y="22" class="stat-value">$18391.70</text>
+      <text y="22" class="stat-value">$18394.50</text>
     </g>
     <g transform="translate(320, 0)">
       <text class="stat-label">📅 Today</text>
-      <text y="22" class="stat-value-small">82.5M / $35.00</text>
+      <text y="22" class="stat-value-small">32M / $14.55</text>
     </g>
     <g transform="translate(510, 0)">
       <text class="stat-label">📊 This Week</text>
-      <text y="22" class="stat-value-small">2B / $1137.68</text>
+      <text y="22" class="stat-value-small">1B / $595.45</text>
     </g>
     <g transform="translate(710, 0)">
       <text class="stat-label">📈 This Month</text>
-      <text y="22" class="stat-value-small">9.2B / $5740.29</text>
+      <text y="22" class="stat-value-small">9.1B / $5699.50</text>
     </g>
   </g>
   <!-- Weekly Usage Chart -->
@@ -71,7 +71,7 @@
     <text x="689.5" y="95" text-anchor="middle" class="model-label">10/05</text>
     <rect x="720" y="73.30893049533034" width="49" height="6.691069504669659" rx="3" fill="#58a6ff"/>
     <text x="744.5" y="95" text-anchor="middle" class="model-label">10/06</text>
-    <rect x="775" y="77.4923048337525" width="49" height="2.5076951662475024" rx="3" fill="#58a6ff"/>
+    <rect x="775" y="77.40681822057165" width="49" height="2.5931817794283476" rx="3" fill="#58a6ff"/>
     <text x="799.5" y="95" text-anchor="middle" class="model-label">10/07</text>
   </g>
   <!-- Model Breakdown -->
@@ -103,5 +103,5 @@
       <text x="680" y="11" class="model-label">opus-4.6 8% ($1510.99)</text>
     </g>
   </g>
-  <text x="25" y="390" class="footer">Updated: 2026-10-06 22:31 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
+  <text x="25" y="390" class="footer">Updated: 2026-10-07 03:00 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
 </svg>
