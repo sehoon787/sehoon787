@@ -19,23 +19,23 @@
   <g transform="translate(25, 60)">
     <g>
       <text class="stat-label">Total Tokens</text>
-      <text y="22" class="stat-value">28B</text>
+      <text y="22" class="stat-value">27.3B</text>
     </g>
     <g transform="translate(150, 0)">
       <text class="stat-label">Total Cost</text>
-      <text y="22" class="stat-value">$19195.43</text>
+      <text y="22" class="stat-value">$18566.33</text>
     </g>
     <g transform="translate(320, 0)">
       <text class="stat-label">📅 Today</text>
-      <text y="22" class="stat-value-small">512.6M / $174.19</text>
+      <text y="22" class="stat-value-small">643.6M / $224.16</text>
     </g>
     <g transform="translate(510, 0)">
       <text class="stat-label">📊 This Week</text>
-      <text y="22" class="stat-value-small">2.6B / $865.81</text>
+      <text y="22" class="stat-value-small">2.7B / $915.77</text>
     </g>
     <g transform="translate(710, 0)">
       <text class="stat-label">📈 This Month</text>
-      <text y="22" class="stat-value-small">8.1B / $4181.70</text>
+      <text y="22" class="stat-value-small">8.2B / $4231.66</text>
     </g>
   </g>
   <!-- Weekly Usage Chart -->
@@ -71,7 +71,7 @@
     <text x="689.5" y="95" text-anchor="middle" class="model-label">10/13</text>
     <rect x="720" y="19.366755775283863" width="49" height="60.63324422471614" rx="3" fill="#58a6ff"/>
     <text x="744.5" y="95" text-anchor="middle" class="model-label">10/14</text>
-    <rect x="775" y="23.586093547710703" width="49" height="56.4139064522893" rx="3" fill="#58a6ff"/>
+    <rect x="775" y="9.164294505601646" width="49" height="70.83570549439835" rx="3" fill="#58a6ff"/>
     <text x="799.5" y="95" text-anchor="middle" class="model-label">10/15</text>
   </g>
   <!-- Model Breakdown -->
@@ -80,17 +80,17 @@
     <g transform="translate(0, 18)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
       <rect x="0" y="2" width="180.9" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">fable-5 27% ($5253.44)</text>
+      <text x="680" y="11" class="model-label">fable-5 27% ($4962.07)</text>
     </g>
     <g transform="translate(0, 38)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
-      <rect x="0" y="2" width="174.20000000000002" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">opus-5 26% ($4933.54)</text>
+      <rect x="0" y="2" width="167.5" height="10" rx="3" fill="#58a6ff"/>
+      <text x="680" y="11" class="model-label">opus-5 25% ($4562.12)</text>
     </g>
     <g transform="translate(0, 58)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
-      <rect x="0" y="2" width="80.39999999999999" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">5-1 12% ($2327.41)</text>
+      <rect x="0" y="2" width="87.10000000000001" height="10" rx="3" fill="#58a6ff"/>
+      <text x="680" y="11" class="model-label">5-1 13% ($2327.31)</text>
     </g>
     <g transform="translate(0, 78)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
@@ -100,8 +100,8 @@
     <g transform="translate(0, 98)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
       <rect x="0" y="2" width="53.6" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">opus-4.6 8% ($1509.49)</text>
+      <text x="680" y="11" class="model-label">opus-4.6 8% ($1497.64)</text>
     </g>
   </g>
-  <text x="25" y="390" class="footer">Updated: 2026-10-15 11:08 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
+  <text x="25" y="390" class="footer">Updated: 2026-10-15 16:39 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
 </svg>
