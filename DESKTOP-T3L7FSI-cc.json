@@ -516,14 +516,45 @@
           "cost": 16.4945636
         }
       ]
+    },
+    {
+      "date": "2026-10-18",
+      "inputTokens": 1456,
+      "outputTokens": 229789,
+      "cacheCreationTokens": 915434,
+      "cacheReadTokens": 17998798,
+      "totalTokens": 19145477,
+      "totalCost": 24.1567865,
+      "modelsUsed": [
+        "claude-fable-5-1",
+        "claude-sonnet-5-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-fable-5-1",
+          "inputTokens": 1414,
+          "outputTokens": 229547,
+          "cacheCreationTokens": 622831,
+          "cacheReadTokens": 15640118,
+          "cost": 23.186907
+        },
+        {
+          "modelName": "claude-sonnet-5-5",
+          "inputTokens": 42,
+          "outputTokens": 242,
+          "cacheCreationTokens": 292603,
+          "cacheReadTokens": 2358680,
+          "cost": 0.9698794999999998
+        }
+      ]
     }
   ],
   "totals": {
-    "inputTokens": 20199,
-    "outputTokens": 2825167,
-    "cacheCreationTokens": 39002404,
-    "cacheReadTokens": 1505323759,
-    "totalCost": 662.9498980500002,
-    "totalTokens": 1547171529
+    "inputTokens": 21655,
+    "outputTokens": 3054956,
+    "cacheCreationTokens": 39917838,
+    "cacheReadTokens": 1523322557,
+    "totalCost": 687.1066845500002,
+    "totalTokens": 1566317006
   }
 }
