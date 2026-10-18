@@ -19,23 +19,23 @@
   <g transform="translate(25, 60)">
     <g>
       <text class="stat-label">Total Tokens</text>
-      <text y="22" class="stat-value">28.2B</text>
+      <text y="22" class="stat-value">28.5B</text>
     </g>
     <g transform="translate(150, 0)">
       <text class="stat-label">Total Cost</text>
-      <text y="22" class="stat-value">$18962.32</text>
+      <text y="22" class="stat-value">$19159.17</text>
     </g>
     <g transform="translate(320, 0)">
       <text class="stat-label">📅 Today</text>
-      <text y="22" class="stat-value-small">231.8M / $144.46</text>
+      <text y="22" class="stat-value-small">516.3M / $310.94</text>
     </g>
     <g transform="translate(510, 0)">
       <text class="stat-label">📊 This Week</text>
-      <text y="22" class="stat-value-small">3.1B / $1137.08</text>
+      <text y="22" class="stat-value-small">3.4B / $1333.93</text>
     </g>
     <g transform="translate(710, 0)">
       <text class="stat-label">📈 This Month</text>
-      <text y="22" class="stat-value-small">9B / $4561.06</text>
+      <text y="22" class="stat-value-small">9.3B / $4757.91</text>
     </g>
   </g>
   <!-- Weekly Usage Chart -->
@@ -45,34 +45,34 @@
     <text x="45" y="52.5" text-anchor="end" class="model-label">340.7M</text>
     <text x="45" y="90" text-anchor="end" class="model-label">0</text>
     <line x1="50" y1="5" x2="50" y2="80" stroke="#30363d" stroke-width="1"/>
-    <rect x="60" y="78" width="49" height="2" rx="3" fill="#58a6ff"/>
-    <text x="84.5" y="95" text-anchor="middle" class="model-label">10/05</text>
-    <rect x="115" y="70.91554772563148" width="49" height="9.084452274368516" rx="3" fill="#58a6ff"/>
-    <text x="139.5" y="95" text-anchor="middle" class="model-label">10/06</text>
-    <rect x="170" y="71.64957798911081" width="49" height="8.350422010889185" rx="3" fill="#58a6ff"/>
-    <text x="194.5" y="95" text-anchor="middle" class="model-label">10/07</text>
-    <rect x="225" y="54.79147689298659" width="49" height="25.208523107013413" rx="3" fill="#58a6ff"/>
-    <text x="249.5" y="95" text-anchor="middle" class="model-label">10/08</text>
-    <rect x="280" y="77.69779909536652" width="49" height="2.302200904633475" rx="3" fill="#58a6ff"/>
-    <text x="304.5" y="95" text-anchor="middle" class="model-label">10/09</text>
-    <rect x="335" y="63.65040265509093" width="49" height="16.34959734490907" rx="3" fill="#58a6ff"/>
-    <text x="359.5" y="95" text-anchor="middle" class="model-label">10/10</text>
-    <rect x="390" y="35.48107768319517" width="49" height="44.51892231680483" rx="3" fill="#58a6ff"/>
-    <text x="414.5" y="95" text-anchor="middle" class="model-label">10/11</text>
-    <rect x="445" y="5" width="49" height="75" rx="3" fill="#58a6ff"/>
-    <text x="469.5" y="95" text-anchor="middle" class="model-label">10/12</text>
-    <rect x="500" y="77.65207353686559" width="49" height="2.3479264631344097" rx="3" fill="#58a6ff"/>
-    <text x="524.5" y="95" text-anchor="middle" class="model-label">10/13</text>
-    <rect x="555" y="19.366755775283863" width="49" height="60.63324422471614" rx="3" fill="#58a6ff"/>
-    <text x="579.5" y="95" text-anchor="middle" class="model-label">10/14</text>
-    <rect x="610" y="8.994803013880002" width="49" height="71.00519698612" rx="3" fill="#58a6ff"/>
-    <text x="634.5" y="95" text-anchor="middle" class="model-label">10/15</text>
-    <rect x="665" y="50.69949665283249" width="49" height="29.300503347167513" rx="3" fill="#58a6ff"/>
-    <text x="689.5" y="95" text-anchor="middle" class="model-label">10/16</text>
-    <rect x="720" y="45.92520438311398" width="49" height="34.07479561688602" rx="3" fill="#58a6ff"/>
-    <text x="744.5" y="95" text-anchor="middle" class="model-label">10/17</text>
-    <rect x="775" y="54.493460899214725" width="49" height="25.50653910078528" rx="3" fill="#58a6ff"/>
-    <text x="799.5" y="95" text-anchor="middle" class="model-label">10/18</text>
+    <rect x="60" y="70.91554772563148" width="49" height="9.084452274368516" rx="3" fill="#58a6ff"/>
+    <text x="84.5" y="95" text-anchor="middle" class="model-label">10/06</text>
+    <rect x="115" y="71.64957798911081" width="49" height="8.350422010889185" rx="3" fill="#58a6ff"/>
+    <text x="139.5" y="95" text-anchor="middle" class="model-label">10/07</text>
+    <rect x="170" y="54.79147689298659" width="49" height="25.208523107013413" rx="3" fill="#58a6ff"/>
+    <text x="194.5" y="95" text-anchor="middle" class="model-label">10/08</text>
+    <rect x="225" y="77.69779909536652" width="49" height="2.302200904633475" rx="3" fill="#58a6ff"/>
+    <text x="249.5" y="95" text-anchor="middle" class="model-label">10/09</text>
+    <rect x="280" y="63.65040265509093" width="49" height="16.34959734490907" rx="3" fill="#58a6ff"/>
+    <text x="304.5" y="95" text-anchor="middle" class="model-label">10/10</text>
+    <rect x="335" y="35.48107768319517" width="49" height="44.51892231680483" rx="3" fill="#58a6ff"/>
+    <text x="359.5" y="95" text-anchor="middle" class="model-label">10/11</text>
+    <rect x="390" y="5" width="49" height="75" rx="3" fill="#58a6ff"/>
+    <text x="414.5" y="95" text-anchor="middle" class="model-label">10/12</text>
+    <rect x="445" y="77.65207353686559" width="49" height="2.3479264631344097" rx="3" fill="#58a6ff"/>
+    <text x="469.5" y="95" text-anchor="middle" class="model-label">10/13</text>
+    <rect x="500" y="19.366755775283863" width="49" height="60.63324422471614" rx="3" fill="#58a6ff"/>
+    <text x="524.5" y="95" text-anchor="middle" class="model-label">10/14</text>
+    <rect x="555" y="8.994803013880002" width="49" height="71.00519698612" rx="3" fill="#58a6ff"/>
+    <text x="579.5" y="95" text-anchor="middle" class="model-label">10/15</text>
+    <rect x="610" y="50.69949665283249" width="49" height="29.300503347167513" rx="3" fill="#58a6ff"/>
+    <text x="634.5" y="95" text-anchor="middle" class="model-label">10/16</text>
+    <rect x="665" y="45.92520438311398" width="49" height="34.07479561688602" rx="3" fill="#58a6ff"/>
+    <text x="689.5" y="95" text-anchor="middle" class="model-label">10/17</text>
+    <rect x="720" y="23.175624612933383" width="49" height="56.82437538706662" rx="3" fill="#58a6ff"/>
+    <text x="744.5" y="95" text-anchor="middle" class="model-label">10/18</text>
+    <rect x="775" y="74.56005762542179" width="49" height="5.439942374578206" rx="3" fill="#58a6ff"/>
+    <text x="799.5" y="95" text-anchor="middle" class="model-label">10/19</text>
   </g>
   <!-- Model Breakdown -->
   <g transform="translate(25, 245)">
@@ -89,8 +89,8 @@
     </g>
     <g transform="translate(0, 58)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
-      <rect x="0" y="2" width="87.10000000000001" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">5-1 13% ($2510.52)</text>
+      <rect x="0" y="2" width="93.80000000000001" height="10" rx="3" fill="#58a6ff"/>
+      <text x="680" y="11" class="model-label">5-1 14% ($2646.74)</text>
     </g>
     <g transform="translate(0, 78)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
@@ -103,5 +103,5 @@
       <text x="680" y="11" class="model-label">opus-4.6 8% ($1497.64)</text>
     </g>
   </g>
-  <text x="25" y="390" class="footer">Updated: 2026-10-18 20:22 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
+  <text x="25" y="390" class="footer">Updated: 2026-10-18 21:00 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
 </svg>
