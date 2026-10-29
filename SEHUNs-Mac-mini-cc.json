@@ -2335,10 +2335,10 @@
       "cacheCreationTokens": 14957474,
       "cacheReadTokens": 622820409,
       "totalTokens": 638608245,
-      "totalCost": 348.7458877499996,
+      "totalCost": 348.7458877499997,
       "modelsUsed": [
-        "claude-fable-5-1",
         "claude-opus-5",
+        "claude-fable-5-1",
         "claude-sonnet-5"
       ],
       "modelBreakdowns": [
@@ -3651,14 +3651,54 @@
           "cost": 7.778199099999998
         }
       ]
+    },
+    {
+      "date": "2026-10-29",
+      "inputTokens": 1774,
+      "outputTokens": 460531,
+      "cacheCreationTokens": 3931020,
+      "cacheReadTokens": 115339488,
+      "totalTokens": 119732813,
+      "totalCost": 49.164604899999965,
+      "modelsUsed": [
+        "claude-opus-5-5",
+        "claude-sonnet-5-5",
+        "claude-fable-5-1"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-opus-5-5",
+          "inputTokens": 1088,
+          "outputTokens": 360889,
+          "cacheCreationTokens": 2809818,
+          "cacheReadTokens": 105489805,
+          "cost": 42.36918299999998
+        },
+        {
+          "modelName": "claude-sonnet-5-5",
+          "inputTokens": 232,
+          "outputTokens": 83157,
+          "cacheCreationTokens": 1007218,
+          "cacheReadTokens": 8471119,
+          "cost": 4.197190899999998
+        },
+        {
+          "modelName": "claude-fable-5-1",
+          "inputTokens": 454,
+          "outputTokens": 16485,
+          "cacheCreationTokens": 113984,
+          "cacheReadTokens": 1378564,
+          "cost": 2.5982309999999997
+        }
+      ]
     }
   ],
   "totals": {
-    "inputTokens": 563418,
-    "outputTokens": 44643141,
-    "cacheCreationTokens": 691535539,
-    "cacheReadTokens": 20810314141,
-    "totalCost": 15170.281520309998,
-    "totalTokens": 21547056239
+    "inputTokens": 565192,
+    "outputTokens": 45103672,
+    "cacheCreationTokens": 695466559,
+    "cacheReadTokens": 20925653629,
+    "totalCost": 15219.446125209997,
+    "totalTokens": 21666789052
   }
 }
