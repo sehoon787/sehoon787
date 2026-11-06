@@ -2335,10 +2335,10 @@
       "cacheCreationTokens": 14957474,
       "cacheReadTokens": 622820409,
       "totalTokens": 638608245,
-      "totalCost": 348.7458877499996,
+      "totalCost": 348.7458877499997,
       "modelsUsed": [
-        "claude-fable-5-1",
         "claude-opus-5",
+        "claude-fable-5-1",
         "claude-sonnet-5"
       ],
       "modelBreakdowns": [
@@ -3929,33 +3929,42 @@
     },
     {
       "date": "2026-11-06",
-      "inputTokens": 4,
-      "outputTokens": 661,
-      "cacheCreationTokens": 86383,
-      "cacheReadTokens": 85753,
-      "totalTokens": 172801,
-      "totalCost": 0.4623016000000001,
+      "inputTokens": 482,
+      "outputTokens": 56233,
+      "cacheCreationTokens": 485060,
+      "cacheReadTokens": 7914294,
+      "totalTokens": 8456069,
+      "totalCost": 7.076302649999999,
       "modelsUsed": [
-        "claude-opus-5-5"
+        "claude-opus-5-5",
+        "claude-fable-5-1"
       ],
       "modelBreakdowns": [
         {
+          "modelName": "claude-fable-5-1",
+          "inputTokens": 366,
+          "outputTokens": 18409,
+          "cacheCreationTokens": 170177,
+          "cacheReadTokens": 2215247,
+          "cost": 3.6051342500000003
+        },
+        {
           "modelName": "claude-opus-5-5",
-          "inputTokens": 4,
-          "outputTokens": 661,
-          "cacheCreationTokens": 86383,
-          "cacheReadTokens": 85753,
-          "cost": 0.4623016000000001
+          "inputTokens": 116,
+          "outputTokens": 37824,
+          "cacheCreationTokens": 314883,
+          "cacheReadTokens": 5699047,
+          "cost": 3.4711684000000007
         }
       ]
     }
   ],
   "totals": {
-    "inputTokens": 578672,
-    "outputTokens": 49134890,
-    "cacheCreationTokens": 716603827,
-    "cacheReadTokens": 21582234246,
-    "totalCost": 15546.254294659999,
-    "totalTokens": 22348551635
+    "inputTokens": 579150,
+    "outputTokens": 49190462,
+    "cacheCreationTokens": 717002504,
+    "cacheReadTokens": 21590062787,
+    "totalCost": 15552.868295709999,
+    "totalTokens": 22356834903
   }
 }
