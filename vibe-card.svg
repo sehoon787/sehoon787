@@ -23,19 +23,19 @@
     </g>
     <g transform="translate(150, 0)">
       <text class="stat-label">Total Cost</text>
-      <text y="22" class="stat-value">$18702.68</text>
+      <text y="22" class="stat-value">$18708.22</text>
     </g>
     <g transform="translate(320, 0)">
       <text class="stat-label">📅 Today</text>
-      <text y="22" class="stat-value-small">4.1M / $2.45</text>
+      <text y="22" class="stat-value-small">11.1M / $7.99</text>
     </g>
     <g transform="translate(510, 0)">
       <text class="stat-label">📊 This Week</text>
-      <text y="22" class="stat-value-small">602.7M / $473.77</text>
+      <text y="22" class="stat-value-small">609.8M / $479.32</text>
     </g>
     <g transform="translate(710, 0)">
       <text class="stat-label">📈 This Month</text>
-      <text y="22" class="stat-value-small">8.6B / $3977.85</text>
+      <text y="22" class="stat-value-small">8.6B / $3983.40</text>
     </g>
   </g>
   <!-- Weekly Usage Chart -->
@@ -90,12 +90,12 @@
     <g transform="translate(0, 58)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
       <rect x="0" y="2" width="113.9" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">5-5 17% ($3175.41)</text>
+      <text x="680" y="11" class="model-label">5-5 17% ($3179.21)</text>
     </g>
     <g transform="translate(0, 78)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
       <rect x="0" y="2" width="107.2" height="10" rx="3" fill="#58a6ff"/>
-      <text x="680" y="11" class="model-label">5-1 16% ($3071.70)</text>
+      <text x="680" y="11" class="model-label">5-1 16% ($3073.44)</text>
     </g>
     <g transform="translate(0, 98)">
       <rect x="0" y="2" width="670" height="10" rx="3" fill="#21262d"/>
@@ -103,5 +103,5 @@
       <text x="680" y="11" class="model-label">4-8 10% ($1836.83)</text>
     </g>
   </g>
-  <text x="25" y="390" class="footer">Updated: 2026-11-11 13:52 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
+  <text x="25" y="390" class="footer">Updated: 2026-11-11 15:01 UTC • Powered by <a href="https://aliencoder.tistory.com/" target="_blank">VibeDashboard</a></text>
 </svg>
