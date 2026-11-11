@@ -2335,7 +2335,7 @@
       "cacheCreationTokens": 14957474,
       "cacheReadTokens": 622820409,
       "totalTokens": 638608245,
-      "totalCost": 348.74588774999967,
+      "totalCost": 348.7458877499997,
       "modelsUsed": [
         "claude-opus-5",
         "claude-fable-5-1",
